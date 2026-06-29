@@ -205,11 +205,7 @@ export default function ProgressDashboard() {
                   <span className="text-sm font-medium text-gray-600 dark:text-text-muted">{t("plan.library")}</span>
                   <Dumbbell className="w-4 h-4 text-gray-600 dark:text-text-muted" />
                 </Link>
-                <Link to="/progress" className="px-5 py-2 rounded-full bg-white dark:bg-white/15 shadow-sm flex items-center gap-2.5 transition-all duration-200 border border-gray-100 dark:border-white/10">
-                  <span className="text-sm font-medium text-gray-900 dark:text-white">{t("plan.progress")}</span>
-                  <BarChart3 className="w-4 h-4 text-primary" />
-                </Link>
-              </div>
+                </div>
             </div>
           )}
         </header>

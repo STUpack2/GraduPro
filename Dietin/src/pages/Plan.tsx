@@ -1648,13 +1648,6 @@ const Plan = () => {
                     <span className="text-sm font-medium text-gray-600">{t('plan.library')}</span>
                     <Dumbbell className="w-4 h-4 text-gray-600" />
                   </Link>
-                  <Link
-                    to="/progress"
-                    className="px-5 py-2 rounded-full flex items-center gap-2.5 transition-all duration-200 hover:bg-white/70"
-                  >
-                    <span className="text-sm font-medium text-gray-600">{t('plan.progress')}</span>
-                    <BarChart3 className="w-4 h-4 text-gray-600" />
-                  </Link>
                 </div>
               </motion.div>
             )}

@@ -1,9 +1,8 @@
 import { motion, AnimatePresence, PanInfo, useMotionValue } from "framer-motion";
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Utensils, Dumbbell, Sparkles } from "lucide-react";
+import { Utensils, Dumbbell } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { isAiConfigured } from "@/lib/aiCoachApi";
 
 interface PlusButtonProps {
   isOpen: boolean;
@@ -49,11 +48,6 @@ const PlusButton = ({ isOpen, onClose, setIsMealAnalysisOpen, setIsCustomPlanOpe
       localStorage.setItem('shouldOpenCustomPlan', 'true');
       navigate("/plan");
     }
-  };
-
-  const handleAICoachClick = () => {
-    onClose();
-    setTimeout(() => navigate("/ai-coach"), 200);
   };
 
   useEffect(() => {
@@ -112,7 +106,7 @@ const PlusButton = ({ isOpen, onClose, setIsMealAnalysisOpen, setIsCustomPlanOpe
             <motion.div
               className="bg-[#f5f5f7] dark:bg-[#1c1c1e] rounded-t-[20px] overflow-hidden shadow-2xl mx-auto max-w-[420px] relative flex flex-col"
               animate={{
-                height: isAiConfigured() ? "30vh" : "22vh"
+                height: "22vh"
               }}
               transition={{
                 duration: 0.6,
@@ -151,20 +145,6 @@ const PlusButton = ({ isOpen, onClose, setIsMealAnalysisOpen, setIsCustomPlanOpe
                     <Utensils className="w-6 h-6 text-[#007AFF]" />
                     <span className="text-sm font-medium text-[#1d1d1f] dark:text-white/90">{t('plusButton.mealLogging')}</span>
                   </motion.button>
-                  {isAiConfigured() && (
-                    <motion.button
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3 }}
-                      onClick={handleAICoachClick}
-                      className="col-span-2 bg-gradient-to-br from-[#007AFF]/10 to-[#5856D6]/10 dark:from-[#007AFF]/15 dark:to-[#5856D6]/15 backdrop-blur-xl border border-[#007AFF]/20 hover:border-[#007AFF]/40 rounded-2xl p-4 flex items-center justify-center gap-3 transition-all duration-200"
-                    >
-                      <Sparkles className="w-5 h-5 text-[#007AFF]" />
-                      <span className="text-sm font-semibold text-[#1d1d1f] dark:text-white/90">
-                        {t('plusButton.aiCoach', { defaultValue: 'AI Coach' })}
-                      </span>
-                    </motion.button>
-                  )}
                 </div>
               </motion.div>
               {/** bottom-only white gradient overlay for popup container */}

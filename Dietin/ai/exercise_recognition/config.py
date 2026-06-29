@@ -53,11 +53,17 @@ class Settings:
     default_target_reps: int = 12
     default_rest_timer: int = 60
 
+    # Dev server origins — Vite auto-increments the port when the default is taken
+    # (3000→3001, 5173→5174, etc.), so we whitelist the most common fallbacks too.
     cors_origins: Tuple[str, ...] = (
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "http://localhost:3001",
+        "http://127.0.0.1:3001",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "http://localhost:5174",
+        "http://127.0.0.1:5174",
         "http://localhost:8080",
         "http://127.0.0.1:8080",
     )

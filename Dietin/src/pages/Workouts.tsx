@@ -19,6 +19,7 @@ import {
 import { Input } from '@/components/ui/input';
 import ProFeatures from '@/components/ProFeatures';
 import { Link, useLocation } from 'react-router-dom';
+import { AICoachPanel } from '@/features/ai-coach/AICoachPanel';
 import NavHide from "@/components/NavHide";
 import { useTranslation } from 'react-i18next';
 
@@ -136,6 +137,7 @@ const Workouts = () => {
   const searchRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const y = useMotionValue(0);
+  const [activeTab, setActiveTab] = useState<'manual' | 'ai'>('manual');
 
   // Helpers to normalize muscle keys (e.g., 'muscles.sub_muscles.lower_back' → 'lower back')
   const normalize = (value: string) => value.toLowerCase().replace(/_/g, ' ');
@@ -463,18 +465,50 @@ const Workouts = () => {
                   <span className="text-sm font-medium text-gray-900">{t("workouts.library")}</span>
                   <Dumbbell className="w-4 h-4 text-primary" />
                 </Link>
-                <Link
-                  to="/progress"
-                  className="px-5 py-2 rounded-full flex items-center gap-2.5 transition-all duration-200 hover:bg-white/70"
+              </div>
+            </div>
+
+            {/* Segmentation Tabs */}
+            <div className="flex justify-center mt-2 w-full">
+              <div className="bg-gray-100 p-1 rounded-full flex gap-1 shadow-sm w-full max-w-sm">
+                <button
+                  onClick={() => setActiveTab('manual')}
+                  className={cn(
+                    "flex-1 py-2 text-sm font-medium rounded-full transition-all duration-200",
+                    activeTab === 'manual' ? "bg-white text-black shadow-sm" : "text-gray-500 hover:text-gray-700"
+                  )}
                 >
-                  <span className="text-sm font-medium text-gray-600">{t("plan.progress")}</span>
-                  <BarChart3 className="w-4 h-4 text-gray-600" />
-                </Link>
+                  {t("workouts.manualTracking", { defaultValue: "Manual Tracking" })}
+                </button>
+                <button
+                  onClick={() => setActiveTab('ai')}
+                  className={cn(
+                    "flex-1 py-2 text-sm font-medium rounded-full transition-all duration-200 flex items-center justify-center gap-2",
+                    activeTab === 'ai' ? "bg-white text-black shadow-sm" : "text-gray-500 hover:text-gray-700"
+                  )}
+                >
+                  {t("workouts.aiTracking", { defaultValue: "AI Tracking" })}
+                </button>
               </div>
             </div>
           </div>
 
-          {/* Modern Spotify-like Search */}
+          {activeTab === 'ai' ? (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+            >
+              <AICoachPanel />
+            </motion.div>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="space-y-8"
+            >
+              {/* Modern Spotify-like Search */}
           <div className="relative mb-4 md:mb-6" ref={searchRef}>
             <div className="relative">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-black/40" />
@@ -745,6 +779,8 @@ const Workouts = () => {
               )}
             </AnimatePresence>
           </div>
+            </motion.div>
+          )}
         </div>
 
         {/* Exercise Detail Modal + Fullscreen Image Modal via Portal */}
@@ -1056,89 +1092,5 @@ const Workouts = () => {
     </div>
   );
 };
-
-export default Workouts; src = { image }
-alt = {`${selectedExercise.name} - ${index === 0 ? 'Start' : 'End'} position`}
-className = "w-full h-full object-contain rounded-xl"
-  />
-                          </div >
-                        ))}
-                      </motion.div >
-                    </div >
-                  </div >
-
-  {/* Navigation Arrows */ }
-  < div className = "absolute inset-x-0 top-1/2 -translate-y-1/2 flex items-center justify-between px-6" >
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (currentImageIndex > 0) {
-                          setCurrentImageIndex(currentImageIndex - 1);
-                        }
-                      }}
-                      className="p-3 rounded-full bg-black/40 backdrop-blur-sm border border-white/10 transform transition-transform hover:scale-110"
-                      style={{ opacity: currentImageIndex === 0 ? 0.5 : 1 }}
-                      disabled={currentImageIndex === 0}
-                    >
-                      <ChevronRight className="w-6 h-6 text-white transform rotate-180" />
-                    </button>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (currentImageIndex < selectedExercise.images.length - 1) {
-                          setCurrentImageIndex(currentImageIndex + 1);
-                        }
-                      }}
-                      className="p-3 rounded-full bg-black/40 backdrop-blur-sm border border-white/10 transform transition-transform hover:scale-110"
-                      style={{ opacity: currentImageIndex === selectedExercise.images.length - 1 ? 0.5 : 1 }}
-                      disabled={currentImageIndex === selectedExercise.images.length - 1}
-                    >
-                      <ChevronRight className="w-6 h-6 text-white" />
-                    </button>
-                  </div >
-
-  {/* Close Button */ }
-  < button
-onClick = {(e) => {
-  e.stopPropagation();
-  setSelectedImage(null);
-}}
-className = "absolute -top-12 right-0 p-3 rounded-full bg-black/40 backdrop-blur-sm border border-white/10 transform transition-transform hover:scale-110"
-  >
-  <X className="w-5 h-5 text-white" />
-                  </button >
-
-  {/* Image Counter */ }
-  < div className = "absolute -bottom-12 left-1/2 -translate-x-1/2 flex items-center gap-3" >
-                    <span className="text-sm font-medium text-black">
-                      {currentImageIndex === 0 ? 'Start Position' : 'End Position'}
-                    </span>
-                    <div className="flex items-center gap-2">
-                      {[0, 1].map((index) => (
-                        <button
-                          key={index}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setCurrentImageIndex(index);
-                          }}
-                          className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                            currentImageIndex === index 
-                              ? 'bg-black scale-125' 
-                              : 'bg-black/40 hover:bg-black/60'
-                          }`}
-                        />
-                      ))}
-                    </div>
-                  </div >
-                </motion.div >
-              </motion.div >
-            )}
-          </AnimatePresence >
-         </div >,
-  document.body
-       )}
-     </div >
-   );
- };
 
 export default Workouts;

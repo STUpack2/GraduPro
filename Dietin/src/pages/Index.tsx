@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useUserStore } from "@/stores/userStore";
-import { Lock } from "lucide-react";
+import { Lock, TrendingUp, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import ProSubscriptionPanel from '@/components/ProSubscriptionPanel';
@@ -499,6 +499,37 @@ const Index = ({ }: IndexProps) => {
               </div>
             )}
           </div>
+
+          {/* Progress Dashboard Banner */}
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            onClick={() => navigate('/progress')}
+            className="mt-6 relative overflow-hidden bg-gradient-to-br from-[#1d1d1f] to-[#2d2d2f] rounded-3xl p-6 shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 cursor-pointer group"
+          >
+            <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-500/10 rounded-full blur-xl -ml-8 -mb-8 pointer-events-none" />
+            
+            <div className="relative z-10 flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center backdrop-blur-sm group-hover:bg-white/20 transition-colors duration-300">
+                  <TrendingUp className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-white tracking-tight">
+                    {t('plan.progress', { defaultValue: 'Transformation & Progress' })}
+                  </h3>
+                  <p className="text-sm text-white/60 mt-0.5">
+                    View your body tracking, photos, and insights
+                  </p>
+                </div>
+              </div>
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-white/10 group-hover:translate-x-1 transition-all duration-300">
+                <ChevronRight className="w-5 h-5 text-white/80" />
+              </div>
+            </div>
+          </motion.div>
 
           {/* Analytics Display */}
           <AnalyticsDisplay setIsProPanelOpen={setIsProPanelOpen} />
