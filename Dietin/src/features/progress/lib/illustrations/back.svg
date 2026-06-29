@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="backGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="116" height="156" rx="14" stroke="currentColor" stroke-opacity="0.15" fill="url(#backGrad)" />
+  <circle cx="60" cy="34" r="14" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" />
+  <path d="M28 108c2-26 12-50 32-50s30 24 32 50" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" stroke-linecap="round" />
+  <path d="M60 60v60M50 70c3 8 4 16 0 26M70 70c-3 8-4 16 0 26" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" stroke-linecap="round" />
+  <path d="M44 110v34M76 110v34" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,41 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Basic read/write access helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    // Allow read access to all profile pictures
+    match /profilePictures/{userId}/{allImages=**} {
+      allow read;
+      allow write: if isOwner(userId);
+    }
+    
+    // Allow access to user's own meal images
+    match /mealImages/{userId}/{allImages=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId);
+    }
+
+    // Progress 2.0 — weekly transformation photos (front/side/back).
+    // Owner-only. Size capped at 5 MB and content-type forced to image/* to
+    // keep abuse vectors closed.
+    match /progressPhotos/{userId}/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId)
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+      allow delete: if isOwner(userId);
+    }
+    
+    // Default deny
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+} 

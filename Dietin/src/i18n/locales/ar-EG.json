@@ -1,0 +1,1570 @@
+{
+  "common": {
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "loading": "جاري التحميل",
+    "search": "بحث",
+    "menu": "القائمة",
+    "welcome": "أهلاً",
+    "welcome_user": "أهلاً {{name}}",
+    "back": "رجوع",
+    "tryAgain": "جرّب تاني",
+    "complete": "اكتمل",
+    "confirm": "تأكيد",
+    "logout": "تسجيل الخروج",
+    "days": "أيام",
+    "na": "غير متاح",
+    "version": "الإصدار {{version}}",
+    "theme": "السِمَة",
+    "light": "فاتح",
+    "dark": "داكن",
+    "units": {
+      "kcal": "سعرة",
+      "gramShort": "جم"
+    }
+  },
+  "payment": {
+    "title": "الدفع",
+    "subtitle": "افتح الوصول غير المحدود",
+    "billingOptions": "خيارات الدفع",
+    "monthly": "شهري",
+    "monthlyDesc": "يتم الدفع شهريًا",
+    "annual": "سنوي",
+    "annualDesc": "يتم الدفع سنويًا",
+    "popular": "الأكثر شيوعًا",
+    "save": "وفر",
+    "signInToContinue": "سجّل دخولك للمتابعة",
+    "signInDesc": "اعمل حساب أو سجّل دخولك علشان تفتح كل المميزات",
+    "subscribeNow": "اشترك الآن",
+    "month": "شهر",
+    "year": "سنة",
+    "priceBadgeMain": "EGP 350/شهر",
+    "priceBadgeAnnualSmall": "EGP 3500/سنة",
+    "features": [
+      "تخطيط وجبات بالذكاء الاصطناعي غير محدود",
+      "تتبع تغذية متقدم",
+      "متابعة الحالة المزاجية",
+      "متابعة الترطيب",
+      "اقتراحات كارديو وترطيب بالذكاء الاصطناعي",
+      "تحليلات التقدم",
+      "دعم أولوية"
+    ]
+  },
+  "improveAI": {
+    "title": "حسّن التحليل",
+    "close": "رجوع",
+    "placeholder": "اكتب ازاي نقدر نحسّن التحليل...",
+    "improving": "بنحسّن...",
+    "improve": "حسّن"
+  },
+  "auth": {
+    "login": "دخول",
+    "logout": "تسجيل الخروج",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة السر",
+    "continueWithGoogle": "كمّل بجوجل",
+    "continueWithApple": "كمّل بأبل",
+    "continueWithEmail": "كمّل بالإيميل",
+    "signInErrorTitle": "خطأ في تسجيل الدخول",
+    "signInErrorDescGeneric": "فشل تسجيل الدخول",
+    "googleSignInErrorTitle": "خطأ في تسجيل دخول جوجل",
+    "googleSignInCancelled": "تسجيل دخول جوجل اتلغى أو فشل",
+    "welcomeTitle": "أهلاً!",
+    "welcomeDescGoogle": "تم تسجيل الدخول بجوجل بنجاح",
+    "welcomeDescEmail": "تم تسجيل الدخول بالإيميل بنجاح",
+    "welcomeHeadline": "أهلاً بيك في دايتين",
+    "welcomeSub": "سجّل دخول أو اعمل حساب وابدأ مشوارك",
+    "partialSignInTitle": "تم تسجيل الدخول جزئياً",
+    "partialSignInDesc": "اتسجلت دخول، بس ممكن بعض البيانات تبقى محدودة لحد ما الاتصال يرجع.",
+    "agreePrefix": "بانك مكمّل، انت موافق على",
+    "and": "و",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "back": "رجوع",
+    "createAccount": "اعمل حساب",
+    "weak": "ضعيف",
+    "fair": "مقبول",
+    "good": "جيد",
+    "strong": "قوي",
+    "passwordConfirm": "أعد إدخال كلمة السر",
+    "working": "شغال",
+    "forgotPassword": "نسيت كلمة السر؟",
+    "verifyEmailTitle": "فعّل إيميلك",
+    "verifyEmailDesc": "بعتنالك لينك تفعيل على الإيميل.",
+    "verifyEmailPrompt": "من فضلك فعّل البريد الإلكتروني المرسل إلى",
+    "verifyBeforeProceed": "فعّل الإيميل الأول عشان تكمل.",
+    "resend": "إعادة إرسال",
+    "resendIn": "إعادة إرسال بعد",
+    "checking": "بيتحقق",
+    "alreadyVerified": "أنا فعّلت خلاص",
+    "error": "خطأ",
+    "notSignedIn": "مش مسجّل دخول.",
+    "notVerified": "لسه متفعّلش",
+    "clickLinkInEmail": "اضغط على لينك التفعيل في الإيميل.",
+    "tryAgain": "حاول تاني.",
+    "emailDomainRestriction": "من فضلك استخدم Gmail أو Outlook أو Hotmail أو iCloud.",
+    "passwordsDontMatch": "كلمات السر مش متطابقة",
+    "weakPassword": "استخدم 8 حروف+ وحروف كبيرة وصغيرة ورقم ورمز",
+    "weakPasswordError": "اختار كلمة سر أقوى.",
+    "verifyEmailSendFailed": "معرفناش نبعت إيميل التفعيل. جرّب تاني.",
+    "enterEmail": "اكتب إيميلك",
+    "enterEmailDesc": "اكتب الإيميل فوق عشان نبعتلك لينك إعادة التعيين.",
+    "resetSent": "اتبعث لينك تغيير كلمة السر",
+    "resetSentDesc": "شوف صندوق الوارد عندك.",
+    "resetFailed": "فشل الإرسال",
+    "verifyEmailResent": "اتعاد إرسال إيميل التفعيل.",
+    "rotating": {
+      "transform": "غيّر مشوارك للأحسن",
+      "snapMeals": "صوّر وجباتك للمتابعة",
+      "aiPlans": "خطط وجبات مدعومة بالذكاء الاصطناعي",
+      "smartRecipes": "محرّك وصفات ذكي",
+      "trackProgress": "تابع تقدمك",
+      "burnWithAI": "احرق سعرات بالذكاء الاصطناعي",
+      "foodCoach": "مدرب الأكل بتاعك",
+      "smartWorkouts": "خطط تمرين ذكية",
+      "reachFaster": "وصل لهدفك أسرع",
+      "liveHealthier": "عيش بصحة أحسن"
+    }
+  },
+  "diet": {
+    "title": "متابعة التغذية",
+    "empty": {
+      "noFoodsToday": "مافيش أكل متسجّل النهارده",
+      "addMealCta": "اضغط \"أضف وجبة\" وابدأ"
+    },
+    "units": {
+      "cal": "سعرة",
+      "gramShort": "جم"
+    },
+    "tags": {
+      "meal1": "وجبة 1",
+      "meal2": "وجبة 2",
+      "meal3": "وجبة 3",
+      "meal4": "وجبة 4",
+      "meal5": "وجبة 5"
+    },
+    "actions": {
+      "addFood": "أضف أكل",
+      "takePhotoOfMeal": "التقط صورة للوجبة"
+    },
+    "labels": {
+      "mealTag": "وسم الوجبة",
+      "mealDescription": "وصف الوجبة",
+      "calories": "السعرات",
+      "proteinGrams": "بروتين (جم)",
+      "carbsGrams": "كاربس (جم)",
+      "fatGrams": "دهون (جم)"
+    },
+    "placeholders": {
+      "mealDescription": "اكتب وصف تفصيلي للوجبة",
+      "calories": "ادخل السعرات",
+      "protein": "بروتين",
+      "carbs": "كاربس",
+      "fat": "دهون"
+    },
+    "alt": {
+      "foodPreview": "معاينة الأكل"
+    },
+    "meals": "الوجبات",
+    "calories": "السعرات",
+    "protein": "بروتين",
+    "carbs": "الكربوهيدرات",
+    "fat": "الدهون",
+    "calories_remaining": "السعرات المتبقية",
+    "calories_consumed": "السعرات المستهلكة",
+    "kcal_left": "سعرة متبقية",
+    "consumed": "مستهلك",
+    "goal": "الهدف",
+    "burned": "محروق",
+    "remaining": "متبقي",
+    "meal_suggestions": "اقتراحات الأكل",
+    "view_all": "عرض الكل",
+    "search_food": "دور على أكل",
+    "add_meal": "إضافة وجبة",
+    "nutrition_facts": "القيم الغذائية",
+    "serving_size": "حجم الحصة",
+    "add_to_diary": "إضافة لليوميات",
+    "recent_meals": "آخر وجبات",
+    "no_results": "مافيش نتائج",
+    "loading_suggestions": "بنحمّل الاقتراحات",
+    "try_pro": "جرّب النسخة المدفوعة",
+    "unlock_features": "افتح كل المميزات",
+    "your_progress": "تقدمك",
+    "weekly_summary": "ملخص الأسبوع",
+    "monthly_summary": "ملخص الشهر",
+    "achievements": "إنجازات",
+    "streak": "سلسلة",
+    "days": "أيام",
+    "weeks": "أسابيع",
+    "months": "شهور"
+  },
+  "plan": {
+    "workout_plan": "خطة التمرين",
+    "progress": "التقدم",
+    "library": "المكتبة",
+    "plan": "الخطة",
+    "favorites": "المفضلة",
+    "push_pull_split": "تقسيمة دفع/سحب",
+    "bro_split": "تقسيمة برو",
+    "upper_lower_split": "تقسيمة فوق/تحت",
+    "custom_plan": "خطة مخصصة",
+    "push_day": "يوم الدفع",
+    "pull_day": "يوم السحب",
+    "rest_cardio": "راحة وكارديو",
+    "rest_core": "راحة وبطن",
+    "full_body": "جسم كامل",
+    "active_recovery": "استشفاء نشط",
+    "rest_day": "يوم راحة",
+    "chest_day": "يوم الصدر",
+    "back_day": "يوم الضهر",
+    "shoulder_day": "يوم الكتف",
+    "arm_day": "يوم الدراع",
+    "leg_day": "يوم الرجلين",
+    "core_cardio": "بطن وكارديو",
+    "upper_body": "الجزء العلوي",
+    "lower_body": "الجزء السفلي",
+    "create_your_own": "اعمِل التقسيمة بتاعتك",
+    "create_plan": "اعمِل خطة",
+    "your_custom_plans": "خططك المخصوصة",
+    "days": "أيام",
+    "start_workout": "ابدأ التمرين",
+    "end_workout": "اختم التمرين",
+    "workout_session": "جلسة تمرين",
+    "paused": "متوقّف",
+    "pause_workout": "وقّف التمرين",
+    "resume_workout": "كمّل التمرين",
+    "day_label": "اليوم",
+    "back_to_splits": "ارجع للتقسيمات",
+    "back_to_days": "ارجع للأيام",
+    "back_to_plan": "ارجع للخطة",
+    "tap_to_view": "اضغط للعرض",
+    "view_progress": "شوف التقدم",
+    "sets_completed": "مجموعات خلصت",
+    "workout": {
+      "workout_complete": "التمرين خلص!",
+      "see_you_next_time": "نشوفك المرة الجاية!",
+      "see_you_message": "هنكون موجودين لما تبقى جاهز لتمرينك الجاي.",
+      "total_volume": "الحجم الكلي",
+      "completed_sets": "المجموعات اللي خلصت",
+      "avg_set_time": "متوسط وقت المجموعة",
+      "avg_rest_time": "متوسط وقت الراحة",
+      "rpm": "RPM",
+      "total_time": "الوقت الكلي",
+      "no_workouts": "مافيش تمارين مسجلة",
+      "click_back_to_plan": "اضغط \"ارجع للخطة\" عشان تبدأ تمرينك"
+    },
+    "rest_timer": {
+      "rest_time": "وقت الراحة",
+      "take_break": "خُد بريك قبل المجموعة الجاية",
+      "skip_rest": "عدّي الراحة"
+    },
+    "exercise": {
+      "set": "مجموعة",
+      "reps": "عدة",
+      "weight": "وزن",
+      "rest": "راحة",
+      "sets_completed": "مجموعات خلصت",
+      "complete_workout": "كمّل التمرين",
+      "next_set": "المجموعة اللي بعدها",
+      "decrease_time": "-٥ث",
+      "increase_time": "+٥ث"
+    },
+    "custom_modal": {
+      "create_custom_plan": "اعمِل خطة مخصوصة",
+      "add_training_days": "زود أيام التمرين",
+      "select_exercises": "اختار التمارين",
+      "plan_name": "اسم الخطة",
+      "continue": "كمّل",
+      "day_name": "اسم اليوم",
+      "focus_placeholder": "التركيز (مثال: الجزء العلوي)",
+      "add_day": "زود يوم",
+      "back": "رجوع",
+      "search_exercises": "دور على التمارين...",
+      "set_as_rest_day": "خليه يوم راحة",
+      "no_exercises_found": "مافيش تمارين",
+      "finish": "إنهاء",
+      "next_day": "اليوم اللي بعده"
+    }
+  },
+  "muscles": {
+    "back": "الضهر",
+    "chest": "الصدر",
+    "shoulders": "الكتاف",
+    "biceps": "البايسبس",
+    "triceps": "الترايسبس",
+    "arms": "الدرعات",
+    "legs": "الرجلين",
+    "upper_body": "الجزء العلوي",
+    "lower_body": "الجزء السفلي",
+    "core": "البطن",
+    "sub_muscles": {
+      "lats": "اللاتس",
+      "middle_back": "نص الضهر",
+      "lower_back": "أسفل الضهر",
+      "traps": "الترابس",
+      "quadriceps": "الكوادرس",
+      "hamstrings": "الهامسترنج",
+      "calves": "السمانة",
+      "glutes": "المؤخرة",
+      "adductors": "المقربة",
+      "abductors": "المبعدة",
+      "forearms": "الساعد",
+      "abdominals": "عضلات البطن"
+    }
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "workouts": "التمارين",
+    "tracker": "المتابعة",
+    "profile": "الملف ",
+    "diet": "الأكل",
+    "burn": "الحرق",
+    "hydration": "الترطيب"
+  },
+  "hydration": {
+    "title": "الترطيب",
+    "units": {
+      "ml": "مل"
+    },
+    "tracker": {
+      "title": "الترطيب اليومي",
+      "cups": "كوبايات",
+      "ofAmount": "من {{amount}}مل",
+      "cupsCount": "({{count}} كوباية)",
+      "moreNeeded": "{{amount}}مل ناقصين النهارده",
+      "aboutMoreCups": "حوالي {{count}} كوباية كمان",
+      "nextReminder": "التنبيه الجاي كمان {{minutes}} دقيقة",
+      "goalReached": "وصلت لهدف الترطيب اليومي! ",
+      "aria": {
+        "addCup": "زود كوباية ({{ml}}مل)",
+        "removeCup": "نقص كوباية ({{ml}}مل)"
+      },
+      "reminders": {
+        "enabledTitle": "اتفعّلِت تنبيهات الترطيب",
+        "enabledDesc": "هنفكرك كل ١-٢ ساعة تشرب مية"
+      },
+      "toast": {
+        "timeToHydrate": "وقت الترطيب! ",
+        "tryCup": "اشرب الكوباية رقم {{number}} ({{ml}}مل) عشان تفضل ملتزم",
+        "done": "تم"
+      }
+    }
+  },
+  "burn": {
+    "ui": {
+      "workoutSuggestions": "اقتراحات التمرين",
+      "refreshTitle": "حدّث علشان تشوف اقتراحات التمرين",
+      "refreshSubtitle": "خد ترشيحات تمرين مخصصة ليك",
+      "subscribeCta": "اشترك في DietinPro علشان تاخد اقتراحات تمرين بالذكاء الاصطناعي"
+    },
+    "stats": {
+      "caloriesBurned": "سعرات محروقة",
+      "totalDuration": "المدة الكلية",
+      "workoutsDone": "تمارين اتعملت"
+    },
+    "sections": {
+      "instructions": "التعليمات",
+      "proTips": "نصايح"
+    },
+    "labels": {
+      "intensity": "الشدة",
+      "targetArea": "المنطقة المستهدفة",
+      "equipment": "المعدات",
+      "minSets": "أقل عدد مجموعات"
+    },
+    "popup": {
+      "tapToStart": "اضغط للبدء",
+      "tapToPause": "اضغط للإيقاف المؤقت",
+      "caloriesWillBeBurned": "السعرات اللي هتتحرق",
+      "actual": "فعلي",
+      "estimated": "تقديري"
+    },
+    "examples": {
+      "example1": {
+        "name": "جري فترات هادية",
+        "targetArea": "جسم كامل",
+        "equipment": "بدون",
+        "instructions": "بدّل بين ٢ دقيقة جري خفيف و١ دقيقة مشي سريع. خلي ضهرك مفروض ونَفَسَك منتظم.",
+        "tips": {
+          "0": "رخّي كتافك وشدّ عضلات البطن",
+          "1": "انزل على الأرض بهدوء عشان تقلل الضغط",
+          "2": "اشرب رشفة مية بين الفترات"
+        }
+      },
+      "example2": {
+        "name": "نط حبل سريع",
+        "targetArea": "جسم كامل",
+        "equipment": "حبل نط",
+        "instructions": "٤٠ ثانية نط حبل، ٢٠ ثانية راحة. كرر. خلي كوعك قريب والرسغ هو اللي يلف الحبل.",
+        "tips": {
+          "0": "اقفز قفزات صغيرة وسريعة",
+          "1": "خلي النفس منتظم",
+          "2": "بص لقدّام"
+        }
+      }
+    }
+  },
+  "days": {
+    "monday": "الاثنين",
+    "tuesday": "الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد",
+    "mon": "الاتنين",
+    "tue": "التلات",
+    "wed": "الأربع",
+    "thu": "الخميس",
+    "fri": "الجمعة",
+    "sat": "السبت",
+    "sun": "الأحد"
+  },
+  "search": {
+    "search_placeholder": "دور على وجبات أو أكل...",
+    "no_results": "مافيش نتائج",
+    "searching": "بنبحث عن أحسن نتائج...",
+    "try_adjusting": "جرّب تعدّل البحث أو الفلترة",
+    "popular_categories": "فئات مشهورة",
+    "quick_suggestions": "اقتراحات سريعة",
+    "add_to_meal_log": "زود لسجل الوجبات",
+    "portion_size": "حجم الحصة",
+    "grams": "جرام",
+    "add_meal": "زود وجبة",
+    "food_added": "اتزود الأكل لسجل الوجبات"
+  },
+  "categories": {
+    "breakfast": "فطار",
+    "lunch": "غدا",
+    "dinner": "عشا",
+    "snacks": "سناكس",
+    "low_calorie": "سعرات قليلة",
+    "high_protein": "بروتين عالي",
+    "vegetarian": "نباتي"
+  },
+  "nutrients": {
+    "sugar": "سكر",
+    "fiber": "ألياف",
+    "cholesterol": "كولسترول",
+    "sodium": "صوديوم",
+    "potassium": "بوتاسيوم",
+    "magnesium": "ماغنيسيوم",
+    "vitamin_a": "فيتامين أ",
+    "vitamin_c": "فيتامين ج",
+    "iron": "حديد"
+  },
+  "analytics": {
+    "total_weekly_calories": "إجمالي السعرات الأسبوعي",
+    "avg_per_day": "متوسط/يوم",
+    "days": "أيام",
+    "meals_analyzed": "وجبات محللة",
+    "best_day": "أحسن يوم",
+    "no_data_yet": "مافيش بيانات لسه",
+    "no_meals_logged": "مافيش وجبات مسجلة",
+    "match": "تطابق",
+    "protein": "بروتين",
+    "carbs": "كربوهيدرات",
+    "fat": "دهون",
+    "ai_training_insights": "تحليلات التمرين الذكية",
+    "personalized_analysis": "تحليل مخصص لأداء تمارينك",
+    "recent_workouts": "آخر تمارين",
+    "workout_history_7_days": "سجل تمرين آخر 7 أيام",
+    "completion": "إكمال",
+    "volume": "حجم",
+    "volume_progress": "تقدم الحجم",
+    "volume_progress_text": "اتابع تقدم حجم تمارينك مع DietinPro عشان تاخد رؤى مخصوصة",
+    "rest_optimization": "تحسين الراحة",
+    "rest_optimization_text": "تحليل فترات الراحة وتحسينها لاستشفاء أحسن",
+    "training_focus": "تركيز التمرين",
+    "training_focus_text": "تحليل لتوازن مجموعات العضلات وتوزيع التمرين"
+  },
+  "search_popup": {
+    "add_to_meal_log": "زود لسجل الوجبات",
+    "portion_size": "حجم الحصة",
+    "grams": "جرام",
+    "calories": "سعرات",
+    "protein": "بروتين",
+    "carbs": "كربوهيدرات",
+    "fat": "دهون",
+    "quick_suggestions": "اقتراحات سريعة",
+    "popular_categories": "فئات مشهورة",
+    "searching": "بنبحث...",
+    "no_results": "مافيش نتائج",
+    "try_adjusting": "جرّب تعدّل البحث أو الفلترة",
+    "search_placeholder": "دور على وجبات أو أكل..."
+  },
+  "home": {
+    "sign_in_cta": "سجل دخولك أو اعمل حساب للتجربة الكاملة",
+    "unlock_pro": "افتح المميزات المتقدمة",
+    "quick_suggestions": {
+      "chicken_breast": "صدر فراخ",
+      "greek_yogurt": "زبادي يوناني",
+      "oatmeal": "شوفان",
+      "salmon": "سلمون",
+      "quinoa_bowl": "طبق كينوا",
+      "protein_shake": "بروتين شيك"
+    }
+  },
+  "ai_assistant": {
+    "welcome": "أهلاً بيك في CHIEF AI",
+    "description": "مساعدك الشخصي للأكل والرياضة",
+    "input_placeholder": "اسأل عن التغذية أو الوصفات أو التمرين...",
+    "features": {
+      "smart_nutrition": {
+        "title": "نصايح تغذية ذكية",
+        "description": "خد نصايح تغذية شخصية من غير عد سعرات"
+      },
+      "recipe_recommendations": {
+        "title": "ترشيحات وصفات",
+        "description": "اكتشف وصفات صحية جديدة"
+      },
+      "fitness_guidance": {
+        "title": "إرشادات لياقة",
+        "description": "نصايح تمرين تكمل نظامك الغذائي"
+      },
+      "meal_planning": {
+        "title": "تخطيط وجبات ذكي",
+        "description": "خطط وجبات أسبوعية مخصوصة ونصايح للتحضير"
+      }
+    },
+    "quick_suggestions": {
+      "title": "اقتراحات سريعة",
+      "healthy_breakfast": "أفكار لفطار صحي",
+      "quick_workout": "روتين تمرين سريع",
+      "meal_prep": "نصايح لتحضير الأكل",
+      "healthy_snacks": "سناكس صحية",
+      "pre_workout": "أحسن أكلات قبل التمرين",
+      "salad_recipes": "وصفات سلطات سهلة",
+      "homemade_pizza": "بيتزا بيتي",
+      "heart_healthy": "أكل صحي للقلب"
+    }
+  },
+  "workouts": {
+    "exercise_library": "مكتبة التمارين",
+    "library": "المكتبة",
+    "search_all_exercises": "دور على تمارين أو مجموعات عضلية...",
+    "search_in_muscle_group": "دور في {{muscle}}...",
+    "back_to_categories": "ارجع للفئات",
+    "all_types": "كل الأنواع ({{count}})",
+    "view_exercises": "عرض التمارين",
+    "loading_exercises": "بنحمّل التمارين",
+    "equipment": "معدات",
+    "level": "مستوى",
+    "instructions": "تعليمات"
+  },
+  "progress": {
+    "ai_training_insights": "تحليلات التدريب بالذكاء الاصطناعي",
+    "ai_training_insights_desc": "تحليل مخصص لتقدمك في التمرين",
+    "no_workouts_found": "مافيش تمارين",
+    "no_workouts_desc": "لسه ماعملتش أي تمارين. اضغط تحت وابدأ مشوارك الرياضي.",
+    "add_first_workout": "ابدأ أول تمرين"
+  },
+  "plusButton": {
+    "workoutPlan": "خطة التمرين",
+    "mealLogging": "تسجيل الوجبة"
+  },
+  "mealAnalysis": {
+    "saveSuccess": "اتحفظت الوجبة بنجاح!",
+    "additionalNutrients": "عناصر غذائية إضافية",
+    "headers": {
+      "aiDescription": "وصف بالذكاء الاصطناعي",
+      "uploadPhoto": "ارفع صورة",
+      "manualEntry": "إدخال يدوي",
+      "editMeal": "تعديل الوجبة"
+    },
+    "buttons": {
+      "saveMeal": "احفظ الوجبة",
+      "fillAllFields": "كمّل كل الخانات"
+    },
+    "ai": {
+      "enterDescription": "اكتب وصف الوجبة",
+      "describeYourMeal": "اوصف وجبتك",
+      "examplePlaceholder": "مثلاً: فراخ مشوية مع رز بني وسلطة",
+      "selectMealType": "اختار نوع الوجبة",
+      "analyzeFood": "حلّل الأكل",
+      "analyzing": "بنحلّل وجبتك",
+      "calculatingMessage": "الذكاء الاصطناعي بيحسب القيم الغذائية ونصايح صحية"
+    },
+    "tags": {
+      "breakfast": "فطار",
+      "lunch": "غدا",
+      "dinner": "عشا",
+      "snack": "سناك",
+      "meal1": "الوجبة 1",
+      "meal2": "الوجبة 2",
+      "meal3": "الوجبة 3",
+      "customPlaceholder": "وسم مخصص..."
+    },
+    "manual": {
+      "titleLabel": "اسم الوجبة",
+      "titlePlaceholder": "اكتب اسم الوجبة",
+      "mealType": "نوع الوجبة",
+      "nutritionFacts": "القيم الغذائية"
+    },
+    "labels": {
+      "fiber": "ألياف",
+      "sugar": "سكر",
+      "sodium": "صوديوم",
+      "cholesterol": "كوليسترول",
+      "vitA": "فيتامين أ",
+      "vitC": "فيتامين ج",
+      "calcium": "كالسيوم",
+      "iron": "حديد",
+      "calories": "سعرات حرارية",
+      "healthScore": "درجة الصحة",
+      "macronutrients": "المغذيات الكبرى",
+      "protein": "بروتين",
+      "carbs": "كربوهيدرات",
+      "fat": "دهون",
+      "ingredients": "المكونات",
+      "suggestions": "اقتراحات",
+      "more": "أكتر",
+      "viewLess": "اعرض أقل"
+    },
+    "units": {
+      "gramShort": "جم"
+    },
+    "actions": {
+      "snapPhoto": "صوّر",
+      "aiDescription": "وصف بالذكاء الاصطناعي",
+      "manualEntry": "إدخال يدوي",
+      "searchFood": "ابحث عن أكل"
+    },
+    "viewMoreSuggestions": "اعرض {{count}} اقتراحات كمان",
+    "viewLess": "اعرض أقل",
+    "photo": {
+      "chooseFromLibrary": "اختار من المعرض",
+      "takePhoto": "التقط صورة",
+      "analyzing": "بنحلّل وجبتك",
+      "calculatingMessage": "الذكاء الاصطناعي بيحسب القيم الغذائية ونصايح صحية"
+    },
+    "pro": {
+      "unlockDetailedNutrition": {
+        "title": "افتح التغذية التفصيلية",
+        "description": "اشترك في DietinPro علشان توصّل لمعلومات غذائية تفصيلية زي الفيتامينات والمعادن وكمان أكتر.",
+        "cta": "رقّي لبرو"
+      },
+      "unlockAISuggestions": {
+        "title": "افتح اقتراحات الذكاء الاصطناعي",
+        "description": "اشترك في DietinPro علشان توصّل لاقتراحات ذكية مخصصة تحسّن وجباتك وتساعدك توصل لهدفك.",
+        "cta": "رقّي لبرو"
+      }
+    },
+    "errors": {
+      "photoAnalyzeFailed": "معرفناش نحلّل الصورة. اتأكد إن الأكل باين بوضوح وجرب تاني.",
+      "fileReadFailed": "حصل مشكلة في قراءة ملف الصورة. جرّب صورة تانية.",
+      "quotaReached": "وصلت للحد اليومي للتحليل. رقّي لبرو علشان تحليل غير محدود.",
+      "photoAnalyzeTryAgain": "معرفناش نحلّل الصورة. جرّب تاني بصورة أوضح للأكل.",
+      "quotaToast": "وصلت للحد اليومي لتحليل الوجبات (3/3). اشترك في DietinPro لتحليل غير محدود أو استنى 24 ساعة.",
+      "nutritionAnalyzeFailed": "فشل تحليل القيم الغذائية. جرّب تاني أو دخّل القيم يدوي.",
+      "tryDetailedDescription": "جرّب تاني بوصف مفصل أكتر.",
+      "tryClearerPhoto": "جرّب تاني بصورة أوضح."
+    }
+  },
+  "units": {
+    "min": "د"
+  },
+  "hydrationAI": {
+    "proTips": "نصايح",
+    "percentComplete": "{{percent}}% خلص",
+    "calories": "سعرات",
+    "protein": "بروتين",
+    "carbs": "كارب",
+    "fat": "دهون",
+    "ingredients": "المكونات",
+    "instructions": "الطريقة",
+    "substitutes": "بدائل",
+    "watchVideo": "اتفرّج على فيديو الشرح",
+    "title": "اقتراحات الترطيب",
+    "refreshTitle": "حدّث علشان تشوف اقتراحات الترطيب",
+    "refreshSubtitle": "خد ترشيحات مشروبات مخصصة ليك",
+    "subscribeCTA": "اشترك في DietinPro علشان تاخد اقتراحات ترطيب بالذكاء الاصطناعي",
+    "difficulty": {
+      "easy": "سهل",
+      "medium": "متوسط",
+      "hard": "صعب"
+    },
+    "examples": {
+      "example1": {
+        "name": "مياه منقوعة بالليمون والنعناع",
+        "quickRecipe": "حط شرايح ليمون ونعناع فريش في مية ساقعة وسيبها 5–10 دقايق."
+      },
+      "example2": {
+        "name": "كوولر الخيار والليمون",
+        "quickRecipe": "اخلط شرايح خيار مع عصير ليمون ومية، وحط تلج قبل التقديم."
+      }
+    },
+    "types": {
+      "tea": "شاي",
+      "infused_water": "مياه منقوعة",
+      "morning_hydration": "ترطيب الصبح",
+      "spring": "ينبوع"
+    },
+    "loading": {
+      "analyzingRecipe": "بنحلّل مكونات الوصفة...",
+      "creatingVisualization": "بنجهّز تصور للوصفة...",
+      "findingTutorial": "بنلاقي فيديو الشرح...",
+      "steps": {
+        "analyzingRecipe": {
+          "title": "تحليل الوصفة",
+          "substeps": {
+            "gatheringIngredients": "تجميع المكونات",
+            "calculatingPortions": "حساب الكميات",
+            "optimizingCookingSteps": "تحسين خطوات الطبخ"
+          }
+        },
+        "gatheringInsights": {
+          "title": "تجميع المعلومات",
+          "substeps": {
+            "analyzingNutritionalValue": "تحليل القيم الغذائية",
+            "evaluatingCookingTechniques": "تقييم تقنيات الطبخ",
+            "generatingProTips": "توليد نصائح برو"
+          }
+        },
+        "creatingVisualization": {
+          "title": "تجهيز التصور",
+          "substeps": {
+            "composingFoodStyling": "تنسيق ستايل الأكل",
+            "generatingImage": "توليد الصورة",
+            "enhancingDetails": "تحسين التفاصيل"
+          }
+        },
+        "findingTutorial": {
+          "title": "البحث عن فيديو الشرح",
+          "substeps": {
+            "searchingVideoContent": "البحث في محتوى الفيديو",
+            "validatingQuality": "التحقق من الجودة",
+            "preparingLink": "تحضير الرابط"
+          }
+        }
+      }
+    },
+    "youtubeSearch": "طريقة عمل مشروب {{name}}"
+  },
+  "settingsPanel": {
+    "language": {
+      "title": "إعدادات اللغة",
+      "appLanguage": "لغة التطبيق",
+      "switchHint": "بدّل بين العربي والإنجليزي"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "enableAll": {
+        "title": "تشغيل الإشعارات",
+        "desc": "تشغيل أو إيقاف كل الإشعارات"
+      },
+      "push": {
+        "title": "إشعارات فورية",
+        "desc": "تحديثات لحظية من التطبيق"
+      },
+      "email": {
+        "title": "إشعارات البريد",
+        "desc": "ملخصات وتحديثات أسبوعية"
+      }
+    },
+    "password": {
+      "enter": "اكتب كلمة السر"
+    },
+    "security": {
+      "title": "الأمان",
+      "sectionTitle": "إعدادات الأمان",
+      "proStatus": {
+        "title": "حالة الاشتراك",
+        "proMember": "عضو برو",
+        "freeMember": "عضو مجاني",
+        "expires": "ينتهي في {{date}}"
+      },
+      "userId": {
+        "title": "معرّف المستخدم",
+        "copied": "تم نسخ معرّف المستخدم",
+        "shareWarning": "شارك مع المشرفين فقط عند الطلب"
+      },
+      "email": {
+        "title": "البريد الإلكتروني"
+      },
+      "password": {
+        "title": "كلمة السر",
+        "lastChanged": "آخر تغيير من {{days}} يوم",
+        "reset": "إعادة ضبط"
+      },
+      "dataPrivacy": {
+        "requestData": {
+          "title": "اطلب بيانات الحساب",
+          "desc": "نزّل بياناتك المحفوظة (JSON)"
+        },
+        "delete": {
+          "title": "حذف الحساب",
+          "desc": "هتمسح حسابك وبياناتك نهائيًا"
+        }
+      }
+    },
+    "messages": {
+      "weeklyUpdateLimit": "وصلت للحد الأسبوعي للتحديث",
+      "changesSaved": "تم حفظ التغييرات!",
+      "nameUpdated": "تم تحديث الاسم بنجاح",
+      "accountDataExported": "تم تصدير بيانات الحساب",
+      "accountDeleted": "تم حذف حسابك",
+      "passwordResetSent": "تم إرسال إيميل إعادة تعيين كلمة السر! تفقد بريدك الإلكتروني."
+    },
+    "errors": {
+      "userNotAuthenticated": "المستخدم غير مسجل دخول",
+      "failedToSaveChanges": "فشل حفظ التغييرات",
+      "enterName": "من فضلك اكتب اسم",
+      "failedToUpdateName": "فشل تحديث الاسم. حاول تاني.",
+      "noAuthenticatedUser": "مافيش مستخدم مسجل دخول",
+      "failedToExportData": "فشل تصدير بيانات الحساب",
+      "reauthToDelete": "من فضلك سجّل دخول تاني عشان تمسح الحساب.",
+      "failedToDeleteAccount": "فشل حذف الحساب",
+      "noEmailForAccount": "مافيش إيميل مرتبط بالحساب ده",
+      "failedToSendPasswordReset": "فشل إرسال إيميل إعادة تعيين الباسورد",
+      "failedToUpdateProfilePicture": "فشل تحديث صورة البروفايل",
+      "failedToRemoveProfilePicture": "فشل إزالة صورة البروفايل"
+    },
+    "deleteAccount": {
+      "confirm": "تمسح حسابك وكل بياناتك؟ العملية دي ما ينفعش ترجع فيها."
+    },
+    "personal": {
+      "title": "البيانات الشخصية",
+      "sectionTitle": "البيانات الشخصية",
+      "imperial": "إمبريالي",
+      "metric": "متري",
+      "age": {
+        "label": "العمر",
+        "placeholder": "ادخل العمر"
+      },
+      "gender": {
+        "label": "النوع",
+        "placeholder": "اختار النوع",
+        "male": "ذكر",
+        "female": "أنثى"
+      },
+      "height": {
+        "label": "الطول",
+        "placeholder": "ادخل الطول"
+      },
+      "weight": {
+        "label": "الوزن",
+        "placeholder": "ادخل الوزن"
+      },
+      "fitnessLevel": {
+        "label": "مستوى اللياقة",
+        "placeholder": "اختار المستوى",
+        "options": {
+          "beginner": "مبتدئ",
+          "intermediate": "متوسط",
+          "advanced": "متقدم"
+        }
+      },
+      "activityLevel": {
+        "label": "مستوى النشاط",
+        "placeholder": "اختار النشاط",
+        "options": {
+          "sedentary": "قليل الحركة",
+          "lightlyActive": "نشاط خفيف",
+          "moderatelyActive": "نشاط متوسط",
+          "veryActive": "نشاط عالي",
+          "extraActive": "نشاط شديد"
+        }
+      },
+      "workoutDays": {
+        "label": "تمارين في الأسبوع",
+        "placeholder": "اختار الأيام"
+      },
+      "fitnessGoal": {
+        "label": "هدف اللياقة",
+        "placeholder": "اختار الهدف",
+        "options": {
+          "loseWeight": "خسارة وزن",
+          "maintainWeight": "ثبات الوزن",
+          "gainWeight": "زيادة وزن"
+        }
+      },
+      "targetWeight": {
+        "label": "الوزن المستهدف",
+        "placeholder": "ادخل الوزن المستهدف"
+      },
+      "weeklyProgress": {
+        "label": "هدف التقدم الأسبوعي",
+        "slider": {
+          "slow": "بالهداوة",
+          "moderate": "متوسط",
+          "fast": "سريع",
+          "steady": "ثابت",
+          "balanced": "متوازن",
+          "ambitious": "طموح"
+        },
+        "perWeek": "في الأسبوع"
+      },
+      "dietType": {
+        "label": "نوع الدايت",
+        "placeholder": "اختار النوع",
+        "options": {
+          "classic": "كلاسيك",
+          "pescatarian": "بيسكاتاريان",
+          "balanced": "متوازن",
+          "highProtein": "بروتين عالي",
+          "lowCarb": "كارب قليل",
+          "vegetarian": "نباتي",
+          "vegan": "نباتي صارم",
+          "keto": "كيتو"
+        }
+      },
+      "actions": {
+        "saveChanges": "احفظ التغييرات",
+        "saving": "بيحفظ...",
+        "saved": "اتحفظت التغييرات",
+        "note": "ما تنساش تحفظ التغييرات"
+      }
+    },
+    "profile": {
+      "healthGoals": {
+        "updateSuccess": "الأهداف اتحدثت بنجاح",
+        "updateFailed": "فشل تحديث الأهداف"
+      }
+    }
+  },
+  "mealAI": {
+    "substitutes": "بدائل",
+    "ui": {
+      "title": "اقتراحات وجبات",
+      "refreshTitle": "حدّث علشان تشوف اقتراحات وجبات",
+      "refreshSubtitle": "خد ترشيحات وجبات مخصصة ليك",
+      "budgetModerate": "متوسط",
+      "subscribeCta": "اشترك في DietinPro علشان تاخد اقتراحات وجبات بالذكاء الاصطناعي"
+    },
+    "difficulty": {
+      "easy": "سهل",
+      "medium": "متوسط",
+      "hard": "صعب"
+    },
+    "stats": {
+      "calories": "سعرات",
+      "protein": "بروتين",
+      "carbs": "كارب",
+      "fat": "دهون"
+    },
+    "sections": {
+      "ingredients": "المكونات",
+      "instructions": "الطريقة",
+      "proTips": "نصايح"
+    },
+    "actions": {
+      "watchVideo": "اتفرّج على فيديو الشرح"
+    },
+    "loading": {
+      "recipe": {
+        "label": "تحليل الوصفة",
+        "gatherIngredients": "بنجمّع المكونات",
+        "calculatePortions": "بنحسب الكميات",
+        "optimizeSteps": "بنحسّن خطوات الطبخ"
+      },
+      "insights": {
+        "label": "تجميع المعلومات",
+        "nutritionAnalysis": "تحليل القيمة الغذائية",
+        "techniqueEvaluation": "تقييم تقنيات الطبخ",
+        "proTips": "توليد نصايح برو"
+      },
+      "visualization": {
+        "label": "تجهيز التصور",
+        "styling": "تظبيط شكل الأكلة",
+        "generatingImage": "توليد الصورة",
+        "enhancing": "تحسين التفاصيل"
+      },
+      "tutorial": {
+        "label": "البحث عن فيديو الشرح",
+        "searching": "بنبحث في فيديوهات",
+        "validating": "بنتحقق من الجودة",
+        "preparingLink": "بنجهّز الرابط"
+      },
+      "percentComplete": "{{percent}}% اكتمل"
+    },
+    "examples": {
+      "grilledChickenSalad": {
+        "name": "سلطة فراخ مشوية",
+        "desc": "خضار فريش مشكّل مع صدور فراخ مشوية"
+      },
+      "proteinSmoothieBowl": {
+        "name": "سيريل سموذي بروتين",
+        "desc": "سموذي غني بالبروتين مع توت مكسرات"
+      }
+    },
+    "steps": {
+      "gatheringInsights": "بنجمّع معلومات وبنحضّر الاقتراحات...",
+      "analyzing": "بنحلّل مكونات الوصفة...",
+      "visualizing": "بنجهّز تصور للوصفة...",
+      "findingTutorial": "بنلاقي فيديو الشرح..."
+    }
+  },
+  "profile": {
+    "bmi": {
+      "title": "مؤشر كتلة جسمك",
+      "underweight": "نحيف",
+      "healthy": "وزن صحي",
+      "overweight": "وزن زائد",
+      "obese": "سمنة"
+    },
+    "mood": {
+      "greeting": {
+        "morning": "صباح الخير",
+        "afternoon": "مساء الخير",
+        "evening": "مساء النور"
+      },
+      "question": "حاسس بإيه النهارده؟",
+      "moods": {
+        "very-happy": "تمام!",
+        "happy": "كويس",
+        "neutral": "عادي",
+        "sad": "زعلان",
+        "very-sad": "وحش"
+      },
+      "hint": "متضايق من البوب أب ده؟ تقدر تقفّله من الإعدادات"
+    },
+    "moodCalendar": {
+      "title": "متابعة المزاج",
+      "subtitle": "تابع تغيّرات مزاجك اليومية",
+      "days": {
+        "sun": "حد",
+        "mon": "اثن",
+        "tue": "ثلث",
+        "wed": "أرب",
+        "thu": "خميس",
+        "fri": "جمع",
+        "sat": "سبت"
+      }
+    },
+    "profilePage": {
+      "logout": {
+        "title": "تسجيل الخروج",
+        "message": "متأكد إنك عايز تخرج من الحساب؟",
+        "success": "تم تسجيل الخروج بنجاح"
+      },
+      "memberSince": "عضو منذ {{date}}",
+      "guestName": "مستخدم ضيف",
+      "guestCta": "سجّل دخولك أو اعمل حساب عشان تفتح الاختيارات المتقدمة",
+      "support": {
+        "title": "الدعم",
+        "privacy": "سياسة الخصوصية",
+        "terms": "الشروط والأحكام",
+        "contact": "اتصل بنا",
+        "responseTime": "عادة بنرد خلال 24 ساعة",
+        "emailCopied": "الإيميل اتنسخ"
+      },
+      "subscription": {
+        "title": "الاشتراك",
+        "proTitle": "دايتن برو",
+        "active": "نشط",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ الانتهاء",
+        "timeRemaining": "الوقت المتبقي",
+        "freeTitle": "الخطة المجانية",
+        "freeSubtitle": "استمتع بالمميزات الأساسية. طوّر لاكتر.",
+        "imageAnalysis": "تحليل الصور يوميًا",
+        "mealAnalysis": "تحليل الوجبات يوميًا",
+        "nextReset": "إعادة التعيين القادمة",
+        "lessThanHour": "أقل من ساعة",
+        "inHours": "بعد {{hours}} ساعة",
+        "upgrade": "طوّر للبرو",
+        "cancelAnytime": "تقدر تلغي في أي وقت"
+      },
+      "menu": {
+        "account": "الحساب",
+        "health": "الصحة",
+        "other": "أخرى",
+        "personalInfo": "البيانات الشخصية",
+        "personalInfoSub": "معلومات الحساب",
+        "notifications": "الإشعارات",
+        "notificationsSub": "إعدادات التذكير والتنبيهات",
+        "language": "اللغة",
+        "languageSub": "لغة التطبيق والمنطقة",
+        "privacy": "الخصوصية والأمان",
+        "privacySub": "كلمة السر وأمان الحساب",
+        "measurements": "القياسات",
+        "measurementsSub": "BMI وتقدّم الجسم",
+        "healthGoals": "أهداف الصحة",
+        "healthGoalsSub": "هدف السعرات والماكروز",
+        "moodTracker": "متابعة المزاج",
+        "moodTrackerSub": "سجّل وراجع مزاجك",
+        "analytics": "تحليلات",
+        "analyticsSub": "رسوم وملخصات",
+        "subscription": "الاشتراك",
+        "proMember": "عضو برو",
+        "freePlan": "خطة مجانية",
+        "helpSupport": "مساعدة ودعم",
+        "helpSupportSub": "الخصوصية، الشروط والتواصل"
+      }
+      ,
+      "measurements": {
+        "title": "القياسات"
+      },
+      "analytics": {
+        "title": "تحليلات"
+      },
+      "healthGoals": {
+        "title": "أهداف الصحة",
+        "nutrition": "التغذية",
+        "dailyCalories": "السعرات اليومية",
+        "proteinGoal": "هدف البروتين",
+        "carbsGoal": "هدف الكارب",
+        "fatGoal": "هدف الدهون"
+      },
+      "mood": {
+        "title": "متابعة المزاج",
+        "sectionTitle": "تتبع المزاج",
+        "sectionSubtitle": "فعّل متابعة المزاج عشان تسجّل وتراجع حالتك المزاجية",
+        "enabled": "متابعة المزاج شغّالة",
+        "disabled": "متابعة المزاج مقفولة"
+      }
+    },
+    "muscleRadar": {
+      "title": "تركيز العضلات الشهري",
+      "subtitleWithData": "توزيع حجم تمرينك الشهر ده",
+      "subtitleNoData": "كمّل تمارينك عشان تشوف التوزيع",
+      "datasetLabel": "حجم التمرين",
+      "tooltip": {
+        "volume": "الحجم"
+      },
+      "emptyTitle": "مافيش بيانات تمارين لسه",
+      "emptyDesc": "ابدأ تسجّل تمارينك علشان تشوف تركيز التدريب",
+      "labels": {
+        "Chest": "صدر",
+        "Back": "ظهر",
+        "Shoulders": "كتف",
+        "Arms": "ذراعين",
+        "Legs": "رجلين",
+        "Core": "البطن والوسط"
+      }
+    },
+    "macroBar": {
+      "title": "التغذية الأسبوعية",
+      "subtitle": "تفصيل السعرات والماكروز",
+      "labels": {
+        "calories": "سعرات",
+        "protein": "بروتين",
+        "carbs": "كارب",
+        "fat": "دهون"
+      },
+      "units": {
+        "cal": "سعرة",
+        "gram": "جم"
+      }
+    },
+    "progress": {
+      "title": "متابعة التقدم",
+      "subtitle": "راقب قياساتك",
+      "weight_label": "الوزن (كجم)",
+      "height_label": "الطول (سم)",
+      "yAxisValue": "القيمة",
+      "input": {
+        "weightLabel": "الوزن (كجم)",
+        "heightLabel": "الطول (سم)",
+        "currentWeight": "الحالي: {{value}}كجم",
+        "enterWeight": "ادخل الوزن",
+        "currentHeight": "الحالي: {{value}}سم",
+        "enterHeight": "ادخل الطول"
+      },
+      "actions": {
+        "saving": "بيحفظ...",
+        "saveUpdate": "احفظ التحديث"
+      },
+      "toast": {
+        "loadError": "فشل تحميل بيانات التقدم.",
+        "saved": "تم حفظ تحديث التقدم بنجاح!",
+        "saveError": "فشل حفظ تحديث التقدم. حاول تاني لاحقًا.",
+        "unknownError": "حصل خطأ. حاول تاني."
+      },
+      "loadingTitle": "جاري تحميل بيانات التقدم...",
+      "emptyTitle": "مافيش بيانات تقدم لسه",
+      "emptyDesc": "ابدأ تسجّل تقدمك بإضافة أول تحديث"
+    }
+  },
+  "landing": {
+    "slides": {
+      "welcome_title": "أهلاً بيك في دايتين",
+      "welcome_desc": "رفيقك الذكي للياقة والصحة",
+      "meal_title": "تخطيط وجبات ذكي",
+      "meal_desc": "خطط وجبات مناسبة لك بكل سهولة",
+      "workout_title": "متابعة التمرين",
+      "workout_desc": "تابع تقدمك ووصل لهدفك",
+      "ai_title": "تحليل بالذكاء الاصطناعي",
+      "ai_desc": "رؤى ذكية لنتايج أسرع"
+    },
+    "alts": {
+      "welcome": "ترحيب",
+      "meal_planning": "تخطيط وجبات",
+      "workout_tracking": "متابعة تمرين",
+      "ai_analysis": "تحليل بالذكاء الاصطناعي"
+    },
+    "cta": {
+      "get_started": "ابدأ",
+      "continue": "متابعة"
+    }
+  },
+  "welcome": {
+    "intro": {
+      "hi": "أهلاً.",
+      "welcome": "أهلاً بيك في دايتين",
+      "unlock": "يلا ننشط كل إمكانياتك."
+    },
+    "name": {
+      "title": "اسمك إيه؟",
+      "desc": "نبدأ بالأساسيات",
+      "placeholder": "اكتب اسمك",
+      "error": "من فضلك اكتب اسم حقيقي (حروف فقط، ٢–٤٠ حرف)."
+    },
+    "birth": {
+      "title": "اتولدت إمتى؟",
+      "desc": "هتساعدنا نضبط خطتك المخصصة.",
+      "month": "الشهر",
+      "day": "اليوم",
+      "year": "السنة",
+      "months": {
+        "january": "يناير",
+        "february": "فبراير",
+        "march": "مارس",
+        "april": "أبريل",
+        "may": "مايو",
+        "june": "يونيو",
+        "july": "يوليو",
+        "august": "أغسطس",
+        "september": "سبتمبر",
+        "october": "أكتوبر",
+        "november": "نوفمبر",
+        "december": "ديسمبر"
+      },
+      "minAgeError": "لازم يكون عندك 12 سنة على الأقل علشان تستخدم التطبيق."
+    },
+    "gender": {
+      "title": "اختار نوع جنسك",
+      "desc": "المعلومة دي بنستخدمها علشان نضبط خطتك.",
+      "options": {
+        "male": "ذكر",
+        "female": "أنثى"
+      }
+    },
+    "hw": {
+      "title": "الطول والوزن",
+      "desc": "ده هيساعدنا نضبط خطتك المخصصة.",
+      "units": {
+        "imperial": "إنجليزي",
+        "metric": "متري"
+      },
+      "height": {
+        "label": "الطول",
+        "placeholderCm": "سم",
+        "placeholderFt": "قدم",
+        "placeholderIn": "بوصة"
+      },
+      "weight": {
+        "label": "الوزن",
+        "placeholderKg": "كجم",
+        "placeholderLbs": "رطل"
+      },
+      "validation": {
+        "heightMetric": "الطول لازم يكون بين 120 سم و 220 سم",
+        "heightImperial": "الطول لازم يكون بين 4'0\" و 7'11\"",
+        "weightMetric": "الوزن لازم يكون بين 30 كجم و 180 كجم",
+        "weightImperial": "الوزن لازم يكون بين 66 رطل و 400 رطل"
+      }
+    },
+    "fitness": {
+      "title": "مستوى لياقتك الحالي إيه؟",
+      "desc": "علشان نضبط البرنامج على خبرتك",
+      "options": {
+        "beginner": {
+          "label": "مبتدئ",
+          "desc": "لسه جديد في الرياضة أو راجع بعد فترة طويلة"
+        },
+        "intermediate": {
+          "label": "متوسط",
+          "desc": "بتتمرن بانتظام وعندك شوية خبرة"
+        },
+        "advanced": {
+          "label": "متقدم",
+          "desc": "عندك خبرة وبتتمرن باستمرار"
+        }
+      }
+    },
+    "activity": {
+      "title": "مستوى نشاطك إيه؟",
+      "desc": "علشان نحسب احتياجك اليومي من الطاقة",
+      "options": {
+        "lightlyActive": {
+          "label": "نشاط خفيف",
+          "desc": "قعدة أغلب اليوم مع شوية حركة"
+        },
+        "moderatelyActive": {
+          "label": "نشاط متوسط",
+          "desc": "تمرين منتظم أو شغل فيه حركة"
+        },
+        "veryActive": {
+          "label": "نشاط عالي",
+          "desc": "تمرين يومي أو شغل مجهد بدنيًا"
+        },
+        "extraActive": {
+          "label": "نشاط عالي جدًا",
+          "desc": "أكتر من تمرين في اليوم أو رياضي"
+        }
+      }
+    },
+    "goal": {
+      "title": "هدفك إيه؟",
+      "desc": "ده هيساعدنا نحدد خطة السعرات المناسبة لك.",
+      "options": {
+        "loseWeight": {
+          "label": "تخس وزن",
+          "desc": "تركيز على تقليل الوزن الكُلّي"
+        },
+        "loseFat": {
+          "label": "تنزل دهون وتحافظ على العضلات",
+          "desc": "تركيز على خسارة دهون مع الحفاظ على الكتلة العضلية"
+        },
+        "recomposition": {
+          "label": "تنزل دهون وتزوّد عضل",
+          "desc": "إعادة تركيب الجسم – تقلل دهون وتبني عضل في نفس الوقت"
+        },
+        "maintainHealth": {
+          "label": "تحافظ وتطوّر صحتك",
+          "desc": "تركيز على الصحة العامة مع الحفاظ على الوزن"
+        },
+        "maintainAthletic": {
+          "label": "تحافظ على أدائك الرياضي",
+          "desc": "تحافظ على وزنك مع تحسين الأداء الرياضي"
+        },
+        "gainMuscle": {
+          "label": "تزوّد عضل",
+          "desc": "تركيز على بناء عضلات مع أقل زيادة دهون ممكنة"
+        },
+        "gainWeight": {
+          "label": "تزود وزن",
+          "desc": "تركيز على زيادة الوزن الكُلّي"
+        }
+      }
+    },
+    "targetWeight": {
+      "title": "وزنك المستهدف كام؟",
+      "headings": {
+        "default": "الوزن المستهدف",
+        "preserveMuscle": "الوزن المستهدف مع الحفاظ على العضلات",
+        "muscleGain": "الوزن المستهدف مع زيادة العضلات",
+        "recomposition": "الوزن المستهدف مع إعادة تركيب الجسم"
+      },
+      "unitKg": "كجم",
+      "unitLbs": "رطل",
+      "current": "الوزن الحالي",
+      "toTarget": "علشان توصل للهدف",
+      "toGain": "لزيادة",
+      "focusRecomp": "ركز على تغيير تركيب الجسم",
+      "maintain": "حافظ على وزنك الحالي",
+      "setRecommended": "عيّن الوزن المقترح"
+    },
+    "weeklyGoal": {
+      "title": "عايز توصل لهدفك بسرعة قد إيه؟",
+      "subtitle": "هدف التقدم الأسبوعي",
+      "labels": {
+        "steady": "بهدوء",
+        "balanced": "متوازن",
+        "ambitious": "طموح"
+      },
+      "recommended": {
+        "title": "مقترح لهدفك",
+        "desc": "مبني على تقدّم مستدام"
+      }
+    },
+    "workoutDays": {
+      "title": "بتتمرن كام مرة في الأسبوع؟",
+      "desc": "هنستخدم ده عشان نضبط خطتك المخصصة.",
+      "options": {
+        "0_2": { "label": "0-2", "desc": "تمارين كل فين وفين" },
+        "3_5": { "label": "3-5", "desc": "كام تمرينة في الأسبوع" },
+        "6_plus": { "label": "6+", "desc": "رياضي ومداوم" }
+      }
+    },
+    "workoutDuration": {
+      "title": "تحب مدة التمرين قد إيه؟",
+      "desc": "اختار المدة اللي تناسبك",
+      "options": {
+        "m30": { "label": "30 دقيقة", "desc": "سريع وفعال" },
+        "m45": { "label": "45 دقيقة", "desc": "مدة متوازنة" },
+        "m60": { "label": "60 دقيقة", "desc": "جلسات كاملة" },
+        "m90": { "label": "90+ دقيقة", "desc": "تمرين مطوّل" }
+      }
+    },
+    "obstacles": {
+      "title": "إيه العقبات اللي كانت بتوقّفك؟",
+      "desc": "اختار كل المناسب",
+      "options": {
+        "TIME": { "label": "الوقت قليل", "desc": "الجدول المزدحم بيقلّل الالتزام" },
+        "MOTIVATION": { "label": "الدافع ضعيف", "desc": "صعب تفضل متحمّس" },
+        "KNOWLEDGE": { "label": "معرفة محدودة", "desc": "مش متأكد من التمرين أو التغذية الصح" },
+        "INJURIES": { "label": "إصابات سابقة", "desc": "قيود أو مخاوف بدنية" },
+        "STRESS": { "label": "ضغط عالي", "desc": "ضغط الشغل أو الحياة بيأثر" },
+        "SLEEP": { "label": "نوم مش كفاية", "desc": "قلة النوم بتأثر على الأداء" },
+        "NUTRITION": { "label": "تحديات الأكل", "desc": "صعب تثبّت على أكل صحي" }
+      }
+    },
+    "limitations": {
+      "title": "عندك أي قيود بدنية؟",
+      "desc": "اختار المناسب عشان نعدّل التمارين ليك",
+      "options": {
+        "BACK": { "label": "مشاكل ظهر", "desc": "ألم/إصابة أسفل أو أعلى الظهر" },
+        "KNEE": { "label": "مشاكل ركبة", "desc": "ألم مفاصل أو إصابة سابقة" },
+        "SHOULDER": { "label": "قيود كتف", "desc": "حركة محدودة أو ألم" },
+        "WRIST": { "label": "مشاكل رسغ/إيد", "desc": "نفق رسغي أو ألم مفاصل" },
+        "HIP": { "label": "مشاكل حوض", "desc": "مرونة محدودة أو عدم راحة" },
+        "NONE": { "label": "مفيش قيود", "desc": "مفيش قيود بدنية" }
+      }
+    },
+    "allergies": {
+      "title": "عندك حساسية أكل؟",
+      "desc": "اختار كل المناسب عشان نقترح وجبات آمنة",
+      "options": {
+        "DAIRY": { "label": "ألبان", "desc": "لبن، جبنة، زبادي" },
+        "NUTS": { "label": "مكسرات شجرية", "desc": "لوز، عين جمل، كاجو" },
+        "PEANUT": { "label": "فول سوداني", "desc": "الفول السوداني ومنتجاته" },
+        "GLUTEN": { "label": "جلوتين", "desc": "قمح، شعير، جودار" },
+        "SOY": { "label": "صويا", "desc": "فول صويا ومنتجاته" },
+        "SHELLFISH": { "label": "محاريات", "desc": "جمبري، كابوريا، استاكوزا" },
+        "EGGS": { "label": "بيض", "desc": "بيض ومنتجاته" },
+        "NONE": { "label": "مفيش حساسية", "desc": "مفيش قيود أكل" }
+      }
+    },
+    "cuisines": {
+      "title": "تحب مطابخ/أكلات مناطق معينة؟",
+      "desc": "هنركّز الاقتراحات على تفضيلك",
+      "options": {
+        "mediterranean": "متوسطي",
+        "indian": "هندي",
+        "mexican": "مكسيكي",
+        "eastAsian": "شرق آسيوي",
+        "middleEastern": "شرق أوسطي",
+        "american": "أمريكي",
+        "african": "أفريقي",
+        "latinAmerican": "أمريكا اللاتينية",
+        "southeastAsian": "جنوب شرق آسيوي",
+        "european": "أوروبي"
+      },
+      "none": { "title": "مفيش تفضيل قوي", "subtitle": "ورّيني تنوع واسع" },
+      "custom": {
+        "placeholder": "أو اكتب مطبخ/منطقة (مثال: ياباني، إيطالي)",
+        "aria": "تفضيل مطبخ/منطقة مخصص"
+      }
+    },
+    "pro": {
+      "title": "طوّر لـ DietinPro",
+      "desc": "أفضل تجربة لياقة",
+      "features": {
+        "aiCoach": { "label": "مدرب تغذية ذكي", "desc": "خطط أكل مخصصة وإرشاد لحظي", "highlight": "الأكثر شعبية" },
+        "premiumRecipes": { "label": "وصفات مميزة", "desc": "وصفات صحية ولذيذة حصرية", "highlight": "جديد" },
+        "advancedAnalytics": { "label": "تحليلات متقدمة", "desc": "رؤى مفصلة وتتبع للتقدم", "highlight": "Pro" },
+        "mealPlanner": { "label": "مخطط وجبات ذكي", "desc": "تخطيط وجبات بالذكاء الاصطناعي", "highlight": "Premium" }
+      },
+      "card": {
+        "title": "DietinPro",
+        "subtitle": "افتح كل إمكانياتك",
+        "perMonth": "/شهر",
+        "benefits": {
+          "aiAnalysis": "✨ تحليل وجبات غير محدود",
+          "workoutPlans": "🎯 خطط تمرين مخصصة",
+          "premiumAccess": "🔒 دخول لميزات بريميوم",
+          "nutritionGuidance": "💪 إرشادات تغذية خبرة"
+        },
+        "cta": "ابدأ النسخة البرو",
+        "noRefund": "بدون استرجاع"
+      }
+    },
+    "aiAnalysis": {
+      "title": "تحليل بالذكاء الاصطناعي",
+      "desc": "الذكاء الاصطناعي بيحلل ملفك",
+      "loading": "جارٍ التحليل..."
+    },
+    "ready": {
+      "title": "جاهز نبدأ؟",
+      "desc": "يلا نبدأ رحلتك",
+      "metrics": { "metabolism": "معدل الحرق", "calories": "السعرات اليومية" },
+      "macros": { "protein": "بروتين", "carbs": "كربوهيدرات", "fat": "دهون" },
+      "chart": {
+        "title": "الجدول الزمني المتوقع للتقدم",
+        "weekLabel": "الأسبوع {{num}}",
+        "withDietin": "مع دايتين",
+        "withoutGuidance": "من غير توجيه",
+        "weightKg": "الوزن (كجم)",
+        "weightLbs": "الوزن (رطل)",
+        "note": "توقعات مبنية على هدفك والتزامك"
+      },
+      "summary": {
+        "title": "أهدافك المخصصة",
+        "targetWeight": "الوزن المستهدف",
+        "weeklyGoal": "الهدف الأسبوعي",
+        "perWeek": "في الأسبوع",
+        "estimatedTimeline": "المدة المتوقعة",
+        "basedOnWeekly": "بناءً على الهدف الأسبوعي: {{weeks}} أسبوع",
+        "aiRecommendation": "توصية الذكاء الاصطناعي: {{weeks}} أسبوع"
+      },
+      "loading": "بنجهّز ملفك...",
+      "cta": "يلا نبدأ!"
+    },
+    "cta": {
+      "continue": "متابعة",
+      "completeStep": "كمّل الخطوة دي"
+    },
+    "confirmSignOut": "متأكد إنك عايز تسجّل خروج؟"
+  },
+  "proPanel": {
+    "title": "DietinPro",
+    "header": {
+      "loggedIn": "ميزات بريميوم بشكل أبسط.",
+      "loggedOut": "سجّل دخول عشان تفتح ميزات البريميوم."
+    },
+    "plans": {
+      "pro": {
+        "name": "برو",
+        "features": [
+          "تحليل غير محدود بالذكاء الاصطناعي",
+          "تحليل الأكل من الصور - صوّر وهنحلل",
+          "وجبات ووصفات مولدة بالذكاء الاصطناعي",
+          "تحليل كامل لبيانات تقدّمك",
+          "تمارين مولدة بالذكاء الاصطناعي على قد هدفك",
+          "خطط وجبات مخصصة بالذكاء الاصطناعي"
+        ]
+      }
+    },
+    "cta": {
+      "signInOrCreate": "سجّل دخول / اعمل حساب",
+      "joinNowLine": "انضم دلوقتي وافتح كل المميزات وابدأ رحلتك الغذائية المخصصة"
+    },
+    "paypal": {
+      "errorTitle": "خطأ من PayPal",
+      "paymentFailedDesc": "فشل تنفيذ الدفع. جرّب تاني لو سمحت.",
+      "initFailedDesc": "فشل تهيئة PayPal. حدّث الصفحة وحاول من جديد."
+    },
+    "subscription": {
+      "successTitle": "أهلاً بيك في Dietin Pro! 🎉",
+      "successDesc": "اتفعّل اشتراكك بنجاح.",
+      "failedTitle": "فشل الاشتراك",
+      "failedDesc": "معرفناش نفعّل الاشتراك. اتواصل مع الدعم لو سمحت."
+    },
+    "checkout": {
+      "secureViaPayPal": "دفع آمن عبر PayPal",
+      "agreePrefix": "بالاشتراك، أنت بتوافق على",
+      "and": "و",
+      "oneTimeNoRenewal": "دفع مرّة واحدة لمدة 30 يوم. مفيش تجديد تلقائي.",
+      "instantAccess": "دخول فوري بعد الدفع",
+      "cancelWithin": "تقدر تلغي في أي وقت خلال 30 يوم"
+    },
+    "redeem": {
+      "haveCode": "معاك كود استبدال؟",
+      "title": "استبدال كود",
+      "placeholder": "اكتب الكود",
+      "action": "استبدال",
+      "comingSoonTitle": "قريبًا",
+      "comingSoonDesc": "ميزة استبدال الأكواد هتتوفر قريب.",
+      "notAvailableTitle": "غير متاح",
+      "notAvailableDesc": "الميزة دي لسه مش متاحة."
+    }
+  }
+}

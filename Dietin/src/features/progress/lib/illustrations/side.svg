@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="sideGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="currentColor" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="116" height="156" rx="14" stroke="currentColor" stroke-opacity="0.15" fill="url(#sideGrad)" />
+  <circle cx="60" cy="34" r="13" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" />
+  <path d="M48 60c3 12 4 22 4 32 0 14-6 22-6 36 0 6 1 12 2 18" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" stroke-linecap="round" />
+  <path d="M70 60c3 14 5 26 5 38 0 18-5 28-5 44 0 4 1 6 2 10" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" stroke-linecap="round" />
+  <path d="M48 72c10 0 18 4 22 8" stroke="currentColor" stroke-width="2" stroke-opacity="0.55" fill="none" stroke-linecap="round" />
+</svg>

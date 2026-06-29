@@ -1,0 +1,19 @@
+name: ai-fitness-coach
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - fastapi==0.115.6
+      - uvicorn[standard]==0.30.6
+      - pydantic==2.7.3
+      - opencv-python==4.9.0.80
+      - mediapipe==0.10.14
+      - numpy==1.23.5
+      - tensorflow==2.16.1
+      - keras==3.3.3
+      - joblib==1.4.2
+      - scikit-learn==1.5.0
+      - matplotlib==3.9.0

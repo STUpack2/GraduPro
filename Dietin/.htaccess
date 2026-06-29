@@ -1,0 +1,68 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+ 
+ # 1) Do NOT rewrite direct PHP scripts or backend paths
+ #    Adjust the prefixes to match your backend location
+ RewriteCond %{REQUEST_URI} \.php$ [OR]
+ RewriteCond %{REQUEST_URI} ^/(api|auth|oauth|backend|cpanel) [NC]
+ RewriteRule - - [L]
+
+ # 1.5) CORS preflight: respond quickly to OPTIONS
+ RewriteCond %{REQUEST_METHOD} =OPTIONS
+ RewriteRule ^ - [R=204,L]
+
+ # 1.6) Allow service worker and Workbox files to be served directly
+ RewriteRule ^(sw\.js|workbox-.*\.js)$ - [L]
+
+ # 2) Do NOT rewrite existing files or directories (serve them as-is)
+ RewriteCond %{REQUEST_FILENAME} -f [OR]
+ RewriteCond %{REQUEST_FILENAME} -d
+ RewriteRule - - [L]
+
+ # 3) Everything else goes to the SPA entry
+ RewriteRule . /index.html [QSA,L]
+
+# Enable CORS
+<IfModule mod_headers.c>
+  Header always set Access-Control-Allow-Origin "*"
+  Header always set Access-Control-Allow-Methods "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+  Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Caching
+<FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|woff2|woff|ttf)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+<FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# Do not cache HTML entry (ensures users get latest app shell)
+<FilesMatch "^index\.html$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</FilesMatch>
+
+# Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule> 

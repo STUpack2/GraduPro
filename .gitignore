@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+venv/
+__pycache__/
+.npm-cache/
+Dietin/ai/dataset/
+.DS_Store
+*.pt
+*.onnx
+dist/
+build/
+.idea/
+.vs/
+.claude/

@@ -1,0 +1,49 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Basic read/write access helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    // Allow authenticated users to read and write their own user document
+    match /users/{userId} {
+      // Allow authenticated users to read their own document
+      allow read: if isOwner(userId);
+      
+      // Allow creating a user document for authenticated users
+      allow create: if isOwner(userId);
+      
+      // Allow users to update their own document EXCEPT premium fields which are server-only
+      allow update: if isOwner(userId)
+        && !request.resource.data.diff(resource.data).changedKeys().hasAny(['isPro', 'proExpiresAt', 'plan', 'subscriptionId']);
+      
+      // Allow users to delete their own document
+      allow delete: if isOwner(userId);
+
+      // Allow access to all subcollections
+      match /{subcollection}/{docId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+    
+    // Allow access to subscriptions collection
+    match /subscriptions/{subscriptionId} {
+      // Users may read only their own subscriptions
+      allow read: if isSignedIn() && resource.data.uid == request.auth.uid;
+      
+      // Prevent clients from creating or mutating subscriptions; server (Admin SDK) writes bypass rules
+      allow create, update, delete: if false;
+    }
+    
+    // Default deny all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+} 

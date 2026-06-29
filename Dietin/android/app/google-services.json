@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "517881147882",
+    "project_id": "dietin-4e618",
+    "storage_bucket": "dietin-4e618.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517881147882:android:a1c1f38dd35bee72954293",
+        "android_client_info": {
+          "package_name": "com.dietin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517881147882-3c82q4mgt15rj2pq97mj8dbcd369qftd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dietin.app",
+            "certificate_hash": "ed5a451a3f82c9fbaa7484ae2d37089a276c8839"
+          }
+        },
+        {
+          "client_id": "517881147882-93ktg1vi4ge00t4sdfg5tlcil5omql17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dietin.app",
+            "certificate_hash": "2481052149f1e598a759075797423c821bbed6bc"
+          }
+        },
+        {
+          "client_id": "517881147882-lep6c8eme1ood6frr57d6tdjsecta5rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dietin.app",
+            "certificate_hash": "2dbbf8501f8407a62624a0da8e7ea3da854d491e"
+          }
+        },
+        {
+          "client_id": "517881147882-rghgjgtitfrfqbmar9fkiai8pgf3rd7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnI2kDS-uLzvPBmYm7RoQpO7Yfel-Ae0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517881147882-rghgjgtitfrfqbmar9fkiai8pgf3rd7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

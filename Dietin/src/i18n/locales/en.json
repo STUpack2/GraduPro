@@ -1,0 +1,1715 @@
+{
+  "common": {
+    "days": "days",
+    "settings": "Settings",
+    "profile": "Profile",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading",
+    "search": "Search",
+    "menu": "Menu",
+    "welcome": "Welcome to Dietin",
+    "welcome_user": "Welcome {{name}}",
+    "back": "Back",
+    "tryAgain": "Try Again",
+    "complete": "Complete",
+    "confirm": "Confirm",
+    "logout": "Log Out",
+    "na": "N/A",
+    "version": "Version {{version}}",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "units": {
+      "kcal": "kcal",
+      "gramShort": "g"
+    }
+  },
+  "improveAI": {
+    "title": "Improve Analysis",
+    "close": "Close",
+    "placeholder": "Describe how to improve the analysis...",
+    "improving": "Improving...",
+    "improve": "Improve"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "continueWithEmail": "Continue with Email",
+    "signInErrorTitle": "Sign In Error",
+    "signInErrorDescGeneric": "Failed to sign in",
+    "googleSignInErrorTitle": "Google Sign-In Error",
+    "googleSignInCancelled": "Google sign-in was cancelled or failed",
+    "welcomeTitle": "Welcome!",
+    "welcomeDescGoogle": "Successfully signed in with Google",
+    "welcomeDescEmail": "Successfully signed in with email",
+    "welcomeHeadline": "Welcome to Dietin",
+    "welcomeSub": "Log in or create an account to start your journey",
+    "partialSignInTitle": "Partial Sign-in Success",
+    "partialSignInDesc": "Signed in, but some user data might be limited until connection is restored.",
+    "agreePrefix": "By continuing, you agree to our",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "back": "Back",
+    "createAccount": "Create account",
+    "weak": "Weak",
+    "fair": "Fair",
+    "good": "Good",
+    "strong": "Strong",
+    "passwordConfirm": "Re-enter password",
+    "working": "Working",
+    "forgotPassword": "Forgot password?",
+    "verifyEmailTitle": "Verify your email",
+    "verifyEmailDesc": "We sent a verification link to your inbox.",
+    "verifyEmailPrompt": "Please verify your email address sent to",
+    "verifyBeforeProceed": "Please verify your email to continue.",
+    "resend": "Resend",
+    "resendIn": "Resend in",
+    "checking": "Checking",
+    "alreadyVerified": "I already verified",
+    "error": "Error",
+    "notSignedIn": "Not signed in.",
+    "notVerified": "Not verified yet",
+    "clickLinkInEmail": "Please click the verification link in your email.",
+    "tryAgain": "Please try again.",
+    "emailDomainRestriction": "Please use Gmail, Outlook, Hotmail, or iCloud email.",
+    "passwordsDontMatch": "Passwords don't match",
+    "weakPassword": "Use 8+ chars with upper, lower, number, symbol",
+    "weakPasswordError": "Please choose a stronger password.",
+    "verifyEmailSendFailed": "Could not send verification email. Try resend.",
+    "enterEmail": "Enter your email",
+    "enterEmailDesc": "Please enter your email above to receive a reset link.",
+    "resetSent": "Password reset sent",
+    "resetSentDesc": "Check your inbox for a reset link.",
+    "resetFailed": "Reset failed",
+    "verifyEmailResent": "Verification email resent.",
+    "rotating": {
+      "transform": "Transform your journey",
+      "snapMeals": "Snap meals for tracking",
+      "aiPlans": "AI-powered meal plans",
+      "smartRecipes": "Smart recipe finder",
+      "trackProgress": "Track your progress",
+      "burnWithAI": "Burn calories with AI",
+      "foodCoach": "Your food coach",
+      "smartWorkouts": "Smart workout plans",
+      "reachFaster": "Reach goals faster",
+      "liveHealthier": "Live healthier"
+    }
+  },
+  "payment": {
+    "title": "Payment",
+    "subtitle": "Unlock unlimited access",
+    "billingOptions": "Billing Options",
+    "monthly": "Monthly",
+    "monthlyDesc": "Billed monthly",
+    "annual": "Annual",
+    "annualDesc": "Billed yearly",
+    "popular": "Most Popular",
+    "save": "Save",
+    "signInToContinue": "Sign in to continue",
+    "signInDesc": "Create an account or sign in to unlock all features",
+    "subscribeNow": "Subscribe Now",
+    "month": "mo",
+    "year": "year",
+    "priceBadgeMain": "EGP 350/mo",
+    "priceBadgeAnnualSmall": "EGP 3500/year",
+    "features": [
+      "unlimited AI meal planning",
+      "Advanced nutrition tracking",
+      "Mood tracker",
+      "Hydration tracker",
+      "AI generated cardio & hydration suggestions",
+      "Progress analytics",
+      "Priority support"
+    ]
+  },
+  "diet": {
+    "title": "Nutrition Tracker",
+    "tags": {
+      "meal1": "Meal 1",
+      "meal2": "Meal 2",
+      "meal3": "Meal 3",
+      "meal4": "Meal 4",
+      "meal5": "Meal 5"
+    },
+    "empty": {
+      "noFoodsToday": "No foods logged today",
+      "addMealCta": "Click \"Add Food\" to get started"
+    },
+    "units": {
+      "cal": "cal",
+      "gramShort": "g"
+    },
+    "actions": {
+      "addFood": "Add Food",
+      "takePhotoOfMeal": "Take Photo of Meal"
+    },
+    "labels": {
+      "mealTag": "Meal Tag",
+      "mealDescription": "Meal Description",
+      "calories": "Calories",
+      "proteinGrams": "Protein (g)",
+      "carbsGrams": "Carbs (g)",
+      "fatGrams": "Fat (g)"
+    },
+    "placeholders": {
+      "mealDescription": "Enter detailed meal description",
+      "calories": "Enter calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "alt": {
+      "foodPreview": "Food preview"
+    },
+    "meals": "Meals",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "calories_remaining": "Calories Remaining",
+    "calories_consumed": "Calories Consumed",
+    "kcal_left": "kcal left",
+    "consumed": "Consumed",
+    "goal": "Goal",
+    "burned": "Burned",
+    "remaining": "Remaining"
+  },
+  "plan": {
+    "workout_plan": "Workout Plan",
+    "progress": "Progress",
+    "library": "Library",
+    "plan": "Plan",
+    "favorites": "Favorites",
+    "push_pull_split": "Push Pull Split",
+    "bro_split": "Bro Split",
+    "upper_lower_split": "Upper Lower Split",
+    "custom_plan": "Custom Plan",
+    "push_day": "Push Day",
+    "pull_day": "Pull Day",
+    "rest_cardio": "Rest & Cardio",
+    "rest_core": "Rest & Core",
+    "full_body": "Full Body",
+    "active_recovery": "Active Recovery",
+    "rest_day": "Rest Day",
+    "chest_day": "Chest Day",
+    "back_day": "Back Day",
+    "shoulder_day": "Shoulder Day",
+    "arm_day": "Arm Day",
+    "leg_day": "Leg Day",
+    "core_cardio": "Core & Cardio",
+    "upper_body": "Upper Body",
+    "lower_body": "Lower Body",
+    "create_your_own": "Create your own workout split",
+    "create_plan": "Create Plan",
+    "your_custom_plans": "Your Custom Plans",
+    "days": "days",
+    "start_workout": "Start Workout",
+    "end_workout": "End Workout",
+    "workout_session": "Workout Session",
+    "paused": "Paused",
+    "pause_workout": "Pause Workout",
+    "resume_workout": "Resume Workout",
+    "day_label": "Day",
+    "back_to_splits": "Back to Splits",
+    "back_to_days": "Back to Days",
+    "back_to_plan": "Back to Plan",
+    "tap_to_view": "Tap to view",
+    "view_progress": "View Progress",
+    "sets_completed": "sets completed",
+    "workout": {
+      "workout_complete": "Workout Complete!",
+      "see_you_next_time": "See You Next Time!",
+      "see_you_message": "We'll be here when you're ready to crush your next workout.",
+      "total_volume": "Total Volume",
+      "completed_sets": "Completed Sets",
+      "avg_set_time": "Avg Set Time",
+      "avg_rest_time": "Avg Rest Time",
+      "rpm": "RPM",
+      "total_time": "Total Time",
+      "no_workouts": "No workouts logged",
+      "click_back_to_plan": "Click \"Back to Plan\" to start your workout"
+    },
+    "rest_timer": {
+      "rest_time": "Rest Time",
+      "take_break": "Take a break before your next set",
+      "skip_rest": "Skip Rest",
+      "enable_pip": "Picture in Picture",
+      "disable_pip": "Close PiP",
+      "pip_not_supported": "Picture in Picture Not Supported",
+      "pip_not_supported_desc": "Your browser doesn't support Picture in Picture mode. Try using a modern browser like Chrome or Edge."
+    },
+    "exercise": {
+      "set": "Set",
+      "reps": "Reps",
+      "weight": "Weight",
+      "rest": "Rest",
+      "sets_completed": "sets completed",
+      "complete_workout": "Complete Workout",
+      "next_set": "Next Set",
+      "decrease_time": "-5s",
+      "increase_time": "+5s"
+    },
+    "custom_modal": {
+      "create_custom_plan": "Create Custom Plan",
+      "add_training_days": "Add Training Days",
+      "select_exercises": "Select Exercises",
+      "plan_name": "Plan Name",
+      "continue": "Continue",
+      "day_name": "Day Name",
+      "focus_placeholder": "Focus (e.g., Upper Body)",
+      "add_day": "Add Day",
+      "back": "Back",
+      "search_exercises": "Search exercises...",
+      "set_as_rest_day": "Set as Rest Day",
+      "no_exercises_found": "No exercises found",
+      "finish": "Finish",
+      "next_day": "Next Day"
+    }
+  },
+  "muscles": {
+    "back": "Back",
+    "chest": "Chest",
+    "shoulders": "Shoulders",
+    "biceps": "Biceps",
+    "triceps": "Triceps",
+    "arms": "Arms",
+    "legs": "Legs",
+    "upper_body": "Upper Body",
+    "lower_body": "Lower Body",
+    "core": "Core",
+    "sub_muscles": {
+      "lats": "Lats",
+      "middle_back": "Middle Back",
+      "lower_back": "Lower Back",
+      "traps": "Traps",
+      "quadriceps": "Quadriceps",
+      "hamstrings": "Hamstrings",
+      "calves": "Calves",
+      "glutes": "Glutes",
+      "adductors": "Adductors",
+      "abductors": "Abductors",
+      "forearms": "Forearms",
+      "abdominals": "Abdominals"
+    }
+  },
+  "home": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "daily_progress": "Daily Progress",
+    "total_calories": "Total Calories",
+    "meal_suggestions": "Meal Suggestions",
+    "view_all": "View All",
+    "search_food": "Search Food",
+    "add_meal": "Add Meal",
+    "nutrition_facts": "Nutrition Facts",
+    "serving_size": "Serving Size",
+    "add_to_diary": "Add to Diary",
+    "recent_meals": "Recent Meals",
+    "no_results": "No Results",
+    "loading_suggestions": "Loading Suggestions",
+    "try_pro": "Try Pro",
+    "unlock_features": "Unlock All Features",
+    "your_progress": "Your Progress",
+    "weekly_summary": "Weekly Summary",
+    "monthly_summary": "Monthly Summary",
+    "achievements": "Achievements",
+    "streak": "Streak",
+    "days": "Days",
+    "weeks": "Weeks",
+    "months": "Months",
+    "sign_in_cta": "Sign In or Create Account for Full Experience",
+    "unlock_pro": "Unlock Pro Features",
+    "quick_suggestions": {
+      "chicken_breast": "Chicken Breast",
+      "greek_yogurt": "Greek Yogurt",
+      "oatmeal": "Oatmeal",
+      "salmon": "Salmon",
+      "quinoa_bowl": "Quinoa Bowl",
+      "protein_shake": "Protein Shake"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "workouts": "Workouts",
+    "tracker": "Tracker",
+    "profile": "Profile",
+    "diet": "Diet",
+    "burn": "Burn",
+    "hydration": "Hydration"
+  },
+  "hydration": {
+    "title": "Hydration",
+    "units": {
+      "ml": "ml"
+    },
+    "tracker": {
+      "title": "Daily Hydration",
+      "cups": "cups",
+      "ofAmount": "of {{amount}}ml",
+      "cupsCount": "({{count}} cups)",
+      "moreNeeded": "{{amount}}ml more needed today",
+      "aboutMoreCups": "About {{count}} more cups",
+      "nextReminder": "Next reminder in {{minutes}} minutes",
+      "goalReached": "Daily hydration goal reached! ",
+      "aria": {
+        "addCup": "Add 1 cup ({{ml}}ml)",
+        "removeCup": "Remove 1 cup ({{ml}}ml)"
+      },
+      "reminders": {
+        "enabledTitle": "Hydration reminders enabled",
+        "enabledDesc": "You'll be reminded every 1-2 hours to drink water"
+      },
+      "toast": {
+        "timeToHydrate": "Time to hydrate! ",
+        "tryCup": "Try to drink cup #{{number}} ({{ml}}ml) to stay on track.",
+        "done": "Done"
+      }
+    }
+  },
+  "burn": {
+    "ui": {
+      "title": "Cardio Tracker",
+      "workoutSuggestions": "Workout Suggestions",
+      "refreshTitle": "Refresh for workout suggestions",
+      "refreshSubtitle": "Get personalized workout recommendations",
+      "subscribeCta": "Subscribe to DietinPro for AI workout suggestions"
+    },
+    "stats": {
+      "caloriesBurned": "calories burned",
+      "totalDuration": "Total Duration",
+      "workoutsDone": "Workouts Done"
+    },
+    "sections": {
+      "instructions": "Instructions",
+      "proTips": "Pro Tips"
+    },
+    "labels": {
+      "intensity": "Intensity",
+      "targetArea": "Target Area",
+      "equipment": "Equipment",
+      "minSets": "Min Sets"
+    },
+    "popup": {
+      "tapToStart": "Tap to start",
+      "tapToPause": "Tap to pause",
+      "caloriesWillBeBurned": "Calories Will Be Burned",
+      "actual": "actual",
+      "estimated": "estimated"
+    },
+    "timer": {
+      "set": "Set {{current}}/{{total}}",
+      "work": "Work",
+      "break": "Break"
+    },
+    "examples": {
+      "example1": {
+        "name": "Paced Jog Intervals",
+        "targetArea": "Full Body",
+        "equipment": "None",
+        "instructions": "Alternate 2 min jog with 1 min brisk walk. Maintain upright posture and steady breathing.",
+        "tips": {
+          "0": "Keep shoulders relaxed and core engaged",
+          "1": "Land softly to reduce impact",
+          "2": "Sip water between intervals"
+        }
+      },
+      "example2": {
+        "name": "Jump Rope Burst",
+        "targetArea": "Full Body",
+        "equipment": "Jump Rope",
+        "instructions": "40s jump rope, 20s rest. Repeat. Keep elbows close and wrists turning the rope.",
+        "tips": {
+          "0": "Use small, quick hops",
+          "1": "Breathe rhythmically",
+          "2": "Keep gaze forward"
+        }
+      }
+    }
+  },
+  "difficulty": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "search": {
+    "search_placeholder": "Search for meals or foods...",
+    "no_results": "No results found",
+    "searching": "Searching for the best matches...",
+    "try_adjusting": "Try adjusting your search or filters",
+    "popular_categories": "Popular Categories",
+    "quick_suggestions": "Quick Suggestions",
+    "add_to_meal_log": "Add to Meal Log",
+    "portion_size": "Portion Size",
+    "grams": "grams",
+    "add_meal": "Add Meal",
+    "food_added": "Food added to meal log"
+  },
+  "categories": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snacks": "Snacks",
+    "low_calorie": "Low Calorie",
+    "high_protein": "High Protein",
+    "vegetarian": "Vegetarian"
+  },
+  "nutrients": {
+    "sugar": "Sugar",
+    "fiber": "Fiber",
+    "cholesterol": "Cholesterol",
+    "sodium": "Sodium",
+    "potassium": "Potassium",
+    "magnesium": "Magnesium",
+    "vitamin_a": "Vitamin A",
+    "vitamin_c": "Vitamin C",
+    "iron": "Iron"
+  },
+  "analytics": {
+    "total_weekly_calories": "Weekly Cal",
+    "avg_per_day": "avg/day",
+    "days": "days",
+    "meals_analyzed": "Meals Analyzed",
+    "best_day": "Best Day",
+    "no_data_yet": "No data yet",
+    "no_meals_logged": "No meals logged",
+    "match": "match",
+    "protein": "protein",
+    "carbs": "carbs",
+    "fat": "fat",
+    "ai_training_insights": "AI Training Insights",
+    "personalized_analysis": "Personalized analysis of your workout performance",
+    "recent_workouts": "Recent Workouts",
+    "workout_history_7_days": "Your workout history from the past 7 days",
+    "completion": "Completion",
+    "volume": "Volume",
+    "volume_progress": "Volume Progress",
+    "volume_progress_text": "Track your workout volume progression with DietinPro to get personalized insights.",
+    "rest_optimization": "Rest Optimization",
+    "rest_optimization_text": "Analyze your rest periods and optimize them for better muscle recovery.",
+    "training_focus": "Training Focus",
+    "training_focus_text": "Get detailed analysis of your muscle group balance and training distribution."
+  },
+  "search_popup": {
+    "add_to_meal_log": "Add to Meal Log",
+    "portion_size": "Portion Size",
+    "grams": "grams",
+    "calories": "calories",
+    "protein": "protein",
+    "carbs": "carbs",
+    "fat": "fat",
+    "quick_suggestions": "Quick Suggestions",
+    "popular_categories": "Popular Categories",
+    "searching": "Searching...",
+    "no_results": "No results found",
+    "try_adjusting": "Try adjusting your search or filters",
+    "search_placeholder": "Search for meals or foods..."
+  },
+  "ai_assistant": {
+    "welcome": "Welcome to CHIEF AI",
+    "description": "Your personal nutrition and fitness assistant",
+    "input_placeholder": "Ask about nutrition, recipes, or fitness...",
+    "features": {
+      "smart_nutrition": {
+        "title": "Smart Nutrition Advice",
+        "description": "Get personalized nutrition tips without calorie counting"
+      },
+      "recipe_recommendations": {
+        "title": "Recipe Recommendations",
+        "description": "Discover recipes with a healthy twist"
+      },
+      "fitness_guidance": {
+        "title": "Fitness Guidance",
+        "description": "Workout tips that complement your nutrition"
+      },
+      "meal_planning": {
+        "title": "Smart Meal Planning",
+        "description": "Get personalized weekly meal plans and prep tips"
+      }
+    },
+    "quick_suggestions": {
+      "title": "Quick Suggestions",
+      "healthy_breakfast": "Healthy breakfast ideas",
+      "quick_workout": "Quick workout routine",
+      "meal_prep": "Meal prep tips",
+      "healthy_snacks": "Healthy snack options",
+      "pre_workout": "Best pre-workout meals",
+      "salad_recipes": "Easy salad recipes",
+      "homemade_pizza": "Homemade pizza recipe",
+      "heart_healthy": "Heart-healthy foods"
+    }
+  },
+  "workouts": {
+    "exercise_library": "Exercise Library",
+    "library": "Library",
+    "search_all_exercises": "Search all exercises or muscle groups...",
+    "search_in_muscle_group": "Search within {{muscle}}...",
+    "back_to_categories": "Back to Categories",
+    "all_types": "All Types ({{count}})",
+    "view_exercises": "View Exercises",
+    "loading_exercises": "Loading exercises",
+    "equipment": "Equipment",
+    "level": "Level",
+    "instructions": "Instructions"
+  },
+  "progress": {
+    "ai_training_insights": "AI Training Insights",
+    "ai_training_insights_desc": "Personalized analysis of your training progress",
+    "no_workouts_found": "No Workouts Found",
+    "no_workouts_desc": "You haven't completed any workouts yet. Click below to start your fitness journey.",
+    "completion": "Completion",
+    "sets": "sets",
+    "volume": "Volume",
+    "example": {
+      "volume_progress": "Volume Progress",
+      "volume_progress_text": "Your training volume has increased by 15% over the past month. Keep pushing!",
+      "rest_optimization": "Rest Optimization",
+      "rest_optimization_text": "Consider increasing rest periods between heavy sets to 2-3 minutes for better recovery.",
+      "training_focus": "Training Focus",
+      "training_focus_text": "Your upper body training is well-balanced. Consider adding more lower body exercises."
+    }
+  },
+  "plusButton": {
+    "workoutPlan": "Workout Plan",
+    "mealLogging": "Meal Logging"
+  },
+  "mealAnalysis": {
+    "saveSuccess": "Meal saved successfully!",
+    "additionalNutrients": "Additional Nutrients",
+    "headers": {
+      "aiDescription": "AI Description",
+      "uploadPhoto": "Upload Photo",
+      "manualEntry": "Manual Entry",
+      "editMeal": "Edit Meal"
+    },
+    "buttons": {
+      "saveMeal": "Save Meal",
+      "fillAllFields": "Fill all fields"
+    },
+    "ai": {
+      "enterDescription": "Enter Meal Description",
+      "describeYourMeal": "Describe Your Meal",
+      "examplePlaceholder": "e.g. Grilled chicken with brown rice and salad",
+      "selectMealType": "Select Meal Type",
+      "analyzeFood": "Analyze Food",
+      "analyzing": "Analyzing your meal",
+      "calculatingMessage": "Our AI is calculating nutritional information and health insights"
+    },
+    "tags": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack",
+      "meal1": "Meal 1",
+      "meal2": "Meal 2",
+      "meal3": "Meal 3",
+      "customPlaceholder": "Custom tag..."
+    },
+    "manual": {
+      "titleLabel": "Meal Title",
+      "titlePlaceholder": "Enter meal title",
+      "mealType": "Meal Type",
+      "nutritionFacts": "Nutrition Facts"
+    },
+    "labels": {
+      "fiber": "Fiber",
+      "sugar": "Sugar",
+      "sodium": "Sodium",
+      "cholesterol": "Cholesterol",
+      "vitA": "Vit A",
+      "vitC": "Vit C",
+      "calcium": "Calcium",
+      "iron": "Iron",
+      "calories": "Calories",
+      "healthScore": "Health Score",
+      "macronutrients": "Macronutrients",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "ingredients": "Ingredients",
+      "suggestions": "Suggestions",
+      "more": "more",
+      "viewLess": "View less"
+    },
+    "units": {
+      "gramShort": "g"
+    },
+    "actions": {
+      "snapPhoto": "Snap Photo",
+      "aiDescription": "AI Description",
+      "manualEntry": "Manual Entry",
+      "searchFood": "Search Food"
+    },
+    "photo": {
+      "chooseFromLibrary": "Choose from Library",
+      "takePhoto": "Take Photo",
+      "analyzing": "Analyzing your meal",
+      "calculatingMessage": "Our AI is calculating nutritional information and health insights"
+    },
+    "viewMoreSuggestions": "View {{count}} more suggestions",
+    "viewLess": "View less",
+    "pro": {
+      "unlockDetailedNutrition": {
+        "title": "Unlock Detailed Nutrition",
+        "description": "Subscribe to DietinPro to access detailed nutritional information including vitamins, minerals, and more.",
+        "cta": "Upgrade to Pro"
+      },
+      "unlockAISuggestions": {
+        "title": "Unlock AI Suggestions",
+        "description": "Subscribe to DietinPro to access personalized AI suggestions for improving your meals and reaching your goals.",
+        "cta": "Upgrade to Pro"
+      }
+    },
+    "errors": {
+      "photoAnalyzeFailed": "Failed to analyze the photo. Please ensure the image clearly shows the food and try again.",
+      "fileReadFailed": "Failed to read the image file. Please try again with a different image.",
+      "quotaReached": "Daily analysis limit reached. Please upgrade to Pro for unlimited analysis.",
+      "photoAnalyzeTryAgain": "Failed to analyze the photo. Please try again with a clearer photo of food.",
+      "quotaToast": "Daily meal analysis limit reached (3/3). Please subscribe to DietinPro for unlimited analysis or wait 24 hours.",
+      "nutritionAnalyzeFailed": "Failed to analyze nutrition. Please try again or enter values manually.",
+      "tryDetailedDescription": "Please try again with a more detailed description.",
+      "tryClearerPhoto": "Please try again with a clearer photo."
+    }
+  },
+  "units": {
+    "min": "min"
+  },
+  "hydrationAI": {
+    "proTips": "Pro Tips",
+    "percentComplete": "{{percent}}% Complete",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "substitutes": "Substitutes",
+    "watchVideo": "Watch Video Tutorial",
+    "title": "Hydration Suggestions",
+    "refreshTitle": "Refresh for hydration suggestions",
+    "refreshSubtitle": "Get personalized drink recommendations",
+    "subscribeCTA": "Subscribe to DietinPro for AI hydration suggestions",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "examples": {
+      "example1": {
+        "name": "Lemon Mint Infused Water",
+        "quickRecipe": "Add lemon slices and fresh mint to cold water; steep 5–10 min."
+      },
+      "example2": {
+        "name": "Cucumber Lime Cooler",
+        "quickRecipe": "Mix cucumber slices with lime juice and water; add ice to serve."
+      }
+    },
+    "types": {
+      "tea": "Tea",
+      "infused_water": "Infused Water",
+      "morning_hydration": "Morning Hydration",
+      "spring": "Spring"
+    },
+    "loading": {
+      "analyzingRecipe": "Analyzing recipe components...",
+      "creatingVisualization": "Creating recipe visualization...",
+      "findingTutorial": "Finding video tutorial...",
+      "steps": {
+        "analyzingRecipe": {
+          "title": "Analyzing Recipe",
+          "substeps": {
+            "gatheringIngredients": "Gathering ingredients",
+            "calculatingPortions": "Calculating portions",
+            "optimizingCookingSteps": "Optimizing cooking steps"
+          }
+        },
+        "gatheringInsights": {
+          "title": "Gathering Insights",
+          "substeps": {
+            "analyzingNutritionalValue": "Analyzing nutritional value",
+            "evaluatingCookingTechniques": "Evaluating cooking techniques",
+            "generatingProTips": "Generating pro tips"
+          }
+        },
+        "creatingVisualization": {
+          "title": "Creating Visualization",
+          "substeps": {
+            "composingFoodStyling": "Composing food styling",
+            "generatingImage": "Generating image",
+            "enhancingDetails": "Enhancing details"
+          }
+        },
+        "findingTutorial": {
+          "title": "Finding Tutorial",
+          "substeps": {
+            "searchingVideoContent": "Searching video content",
+            "validatingQuality": "Validating quality",
+            "preparingLink": "Preparing link"
+          }
+        }
+      }
+    },
+    "youtubeSearch": "how to make {{name}} drink"
+  },
+  "settingsPanel": {
+    "language": {
+      "title": "Language Settings",
+      "appLanguage": "App Language",
+      "switchHint": "Switch between English and Egyptian Arabic"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "enableAll": {
+        "title": "Enable Notifications",
+        "desc": "Turn all notifications on or off"
+      },
+      "push": {
+        "title": "Push Notifications",
+        "desc": "Instant updates from the app"
+      },
+      "email": {
+        "title": "Email Notifications",
+        "desc": "Weekly summaries and updates"
+      }
+    },
+    "password": {
+      "enter": "Enter your password"
+    },
+    "security": {
+      "title": "Security",
+      "sectionTitle": "Security Settings",
+      "proStatus": {
+        "title": "Pro Status",
+        "proMember": "Pro Member",
+        "freeMember": "Free Member",
+        "expires": "Expires {{date}}"
+      },
+      "userId": {
+        "title": "User ID",
+        "copied": "User ID (first half) copied to clipboard",
+        "shareWarning": "Only share with moderators when requested"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "password": {
+        "title": "Password",
+        "lastChanged": "Last changed {{days}} days ago",
+        "reset": "Reset"
+      },
+      "dataPrivacy": {
+        "requestData": {
+          "title": "Request account data",
+          "desc": "Download your saved data (JSON)"
+        },
+        "delete": {
+          "title": "Delete account",
+          "desc": "Permanently remove your account and data"
+        }
+      }
+    },
+    "messages": {
+      "weeklyUpdateLimit": "Weekly update limit reached",
+      "changesSaved": "Changes saved successfully!",
+      "nameUpdated": "Name updated successfully",
+      "accountDataExported": "Account data exported",
+      "accountDeleted": "Your account has been deleted",
+      "passwordResetSent": "Password reset email sent! Please check your inbox."
+    },
+    "errors": {
+      "userNotAuthenticated": "User not authenticated",
+      "failedToSaveChanges": "Failed to save changes",
+      "enterName": "Please enter a name",
+      "failedToUpdateName": "Failed to update name. Please try again.",
+      "noAuthenticatedUser": "No authenticated user",
+      "failedToExportData": "Failed to export account data",
+      "reauthToDelete": "Please reauthenticate to delete your account.",
+      "failedToDeleteAccount": "Failed to delete account",
+      "noEmailForAccount": "No email associated with this account",
+      "failedToSendPasswordReset": "Failed to send password reset email",
+      "failedToUpdateProfilePicture": "Failed to update profile picture",
+      "failedToRemoveProfilePicture": "Failed to remove profile picture"
+    },
+    "deleteAccount": {
+      "confirm": "Delete your account and all your data? This action cannot be undone."
+    },
+    "personal": {
+      "title": "Personal Information",
+      "sectionTitle": "Personal Information",
+      "imperial": "Imperial",
+      "metric": "Metric",
+      "age": {
+        "label": "Age",
+        "placeholder": "Enter age"
+      },
+      "gender": {
+        "label": "Gender",
+        "placeholder": "Select gender",
+        "male": "Male",
+        "female": "Female"
+      },
+      "height": {
+        "label": "Height",
+        "placeholder": "Enter height"
+      },
+      "weight": {
+        "label": "Weight",
+        "placeholder": "Enter weight"
+      },
+      "fitnessLevel": {
+        "label": "Fitness Level",
+        "placeholder": "Select level",
+        "options": {
+          "beginner": "Beginner",
+          "intermediate": "Intermediate",
+          "advanced": "Advanced"
+        }
+      },
+      "activityLevel": {
+        "label": "Activity Level",
+        "placeholder": "Select activity",
+        "options": {
+          "sedentary": "Sedentary",
+          "lightlyActive": "Lightly Active",
+          "moderatelyActive": "Moderately Active",
+          "veryActive": "Very Active",
+          "extraActive": "Extra Active"
+        }
+      },
+      "workoutDays": {
+        "label": "Workouts per Week",
+        "placeholder": "Select days"
+      },
+      "fitnessGoal": {
+        "label": "Fitness Goal",
+        "placeholder": "Select goal",
+        "options": {
+          "loseWeight": "Lose Weight",
+          "maintainWeight": "Maintain Weight",
+          "gainWeight": "Gain Weight"
+        }
+      },
+      "targetWeight": {
+        "label": "Target Weight",
+        "placeholder": "Enter target weight"
+      },
+      "weeklyProgress": {
+        "label": "Weekly Progress Goal",
+        "slider": {
+          "slow": "Slow",
+          "moderate": "Moderate",
+          "fast": "Fast",
+          "steady": "Steady",
+          "balanced": "Balanced",
+          "ambitious": "Ambitious"
+        },
+        "perWeek": "per week"
+      },
+      "dietType": {
+        "label": "Diet Type",
+        "placeholder": "Select diet",
+        "options": {
+          "classic": "Classic",
+          "pescatarian": "Pescatarian",
+          "balanced": "Balanced",
+          "highProtein": "High Protein",
+          "lowCarb": "Low Carb",
+          "vegetarian": "Vegetarian",
+          "vegan": "Vegan",
+          "keto": "Keto"
+        }
+      },
+      "actions": {
+        "saveChanges": "Save Changes",
+        "saving": "Saving...",
+        "saved": "Changes saved",
+        "note": "Make sure to save your changes"
+      }
+    }
+  },
+  "mealAI": {
+    "substitutes": "Substitutes",
+    "ui": {
+      "title": "Meal Suggestions",
+      "refreshTitle": "Refresh for meal suggestions",
+      "refreshSubtitle": "Get personalized meal recommendations",
+      "budgetModerate": "Moderate",
+      "subscribeCta": "Subscribe to DietinPro for AI meal suggestions"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "stats": {
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "sections": {
+      "ingredients": "Ingredients",
+      "instructions": "Instructions",
+      "proTips": "Pro Tips"
+    },
+    "actions": {
+      "watchVideo": "Watch Video Tutorial"
+    },
+    "loading": {
+      "recipe": {
+        "label": "Analyzing Recipe",
+        "gatherIngredients": "Gathering ingredients",
+        "calculatePortions": "Calculating portions",
+        "optimizeSteps": "Optimizing cooking steps"
+      },
+      "insights": {
+        "label": "Gathering Insights",
+        "nutritionAnalysis": "Analyzing nutritional value",
+        "techniqueEvaluation": "Evaluating cooking techniques",
+        "proTips": "Generating pro tips"
+      },
+      "visualization": {
+        "label": "Creating Visualization",
+        "styling": "Composing food styling",
+        "generatingImage": "Generating image",
+        "enhancing": "Enhancing details"
+      },
+      "tutorial": {
+        "label": "Finding Tutorial",
+        "searching": "Searching video content",
+        "validating": "Validating quality",
+        "preparingLink": "Preparing link"
+      },
+      "percentComplete": "{{percent}}% Complete"
+    },
+    "examples": {
+      "grilledChickenSalad": {
+        "name": "Grilled Chicken Salad",
+        "desc": "Fresh mixed greens with grilled chicken breast"
+      },
+      "proteinSmoothieBowl": {
+        "name": "Protein Smoothie Bowl",
+        "desc": "Protein-rich smoothie with mixed berries and nuts"
+      }
+    },
+    "steps": {
+      "gatheringInsights": "Gathering insights and generating suggestions...",
+      "analyzing": "Analyzing recipe components...",
+      "visualizing": "Creating recipe visualization...",
+      "findingTutorial": "Finding video tutorial..."
+    }
+  },
+  "profile": {
+    "bmi": {
+      "title": "Your BMI",
+      "underweight": "Underweight",
+      "healthy": "Healthy",
+      "overweight": "Overweight",
+      "obese": "Obese"
+    },
+    "mood": {
+      "greeting": {
+        "morning": "Good Morning",
+        "afternoon": "Good Afternoon",
+        "evening": "Good Evening"
+      },
+      "question": "How are you feeling today?",
+      "moods": {
+        "very-happy": "Great!",
+        "happy": "Good",
+        "neutral": "Okay",
+        "sad": "Sad",
+        "very-sad": "Bad"
+      },
+      "hint": "Annoyed by this popup? You can turn it off in Settings"
+    },
+    "moodCalendar": {
+      "title": "Mood Tracker",
+      "subtitle": "Monitor your daily mood changes",
+      "days": {
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat"
+      }
+    },
+    "profilePage": {
+      "logout": {
+        "title": "Log Out",
+        "message": "Are you sure you want to log out of your account?",
+        "success": "Logged out successfully"
+      },
+      "memberSince": "Member since {{date}}",
+      "guestName": "Guest user",
+      "guestCta": "Sign in or create an account for advanced options",
+      "support": {
+        "title": "Support",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact Us",
+        "responseTime": "We usually reply within 24 hours",
+        "emailCopied": "Support email copied"
+      },
+      "subscription": {
+        "title": "Subscription",
+        "proTitle": "Dietin Pro",
+        "active": "Active",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "timeRemaining": "Time remaining",
+        "freeTitle": "Free Plan",
+        "freeSubtitle": "Enjoy basic features. Upgrade for more.",
+        "imageAnalysis": "Image Analysis per day",
+        "mealAnalysis": "Meal Analysis per day",
+        "nextReset": "Next reset",
+        "lessThanHour": "Less than an hour",
+        "inHours": "in {{hours}} hours",
+        "upgrade": "Upgrade to Pro",
+        "cancelAnytime": "Cancel anytime"
+      },
+      "menu": {
+        "account": "Account",
+        "health": "Health",
+        "other": "Other",
+        "personalInfo": "Personal Info",
+        "personalInfoSub": "Profile Information",
+        "notifications": "Notifications",
+        "notificationsSub": "Reminder and alerts settings",
+        "language": "Language",
+        "languageSub": "App language and locale",
+        "privacy": "Privacy & Security",
+        "privacySub": "Password and account safety",
+        "measurements": "Measurements",
+        "measurementsSub": "BMI and body progress",
+        "healthGoals": "Health Goals",
+        "healthGoalsSub": "Calories and macros goals",
+        "moodTracker": "Mood Tracker",
+        "moodTrackerSub": "Log and review your mood",
+        "analytics": "Analytics",
+        "analyticsSub": "Charts and insights",
+        "subscription": "Subscription",
+        "proMember": "Pro Member",
+        "freePlan": "Free plan",
+        "helpSupport": "Help & Support",
+        "helpSupportSub": "Privacy, terms and contact"
+      },
+      "measurements": {
+        "title": "Measurements"
+      },
+      "analytics": {
+        "title": "Analytics"
+      },
+      "units": {
+        "cal": "cal",
+        "gram": "g"
+      },
+      "healthGoals": {
+        "title": "Health Goals",
+        "nutrition": "Nutrition",
+        "dailyCalories": "Daily Calories",
+        "proteinGoal": "Protein Goal",
+        "carbsGoal": "Carbs Goal",
+        "fatGoal": "Fat Goal",
+        "updateSuccess": "Goals updated successfully",
+        "updateFailed": "Failed to update goals"
+      },
+      "mood": {
+        "title": "Mood Tracker",
+        "sectionTitle": "Mood Tracking",
+        "sectionSubtitle": "Enable mood tracking to log and review your mood",
+        "enabled": "Mood tracker is enabled",
+        "disabled": "Mood tracker is disabled"
+      }
+    },
+    "muscleRadar": {
+      "title": "Monthly Muscle Focus",
+      "subtitleWithData": "Your training volume distribution this month",
+      "subtitleNoData": "Complete workouts to see your training distribution",
+      "datasetLabel": "Training Volume",
+      "tooltip": {
+        "volume": "Volume"
+      },
+      "emptyTitle": "No Workout Data Yet",
+      "emptyDesc": "Start tracking your workouts to visualize your training focus",
+      "labels": {
+        "Chest": "Chest",
+        "Back": "Back",
+        "Shoulders": "Shoulders",
+        "Arms": "Arms",
+        "Legs": "Legs",
+        "Core": "Core"
+      }
+    },
+    "macroBar": {
+      "title": "Weekly Nutrition",
+      "subtitle": "Calories and macronutrients breakdown",
+      "labels": {
+        "calories": "Calories",
+        "protein": "Protein",
+        "carbs": "Carbs",
+        "fat": "Fat"
+      },
+      "units": {
+        "cal": "cal",
+        "kcal": "kcal",
+        "gramShort": "g"
+      }
+    },
+    "progress": {
+      "title": "Progress Tracking",
+      "subtitle": "Monitor your measurements",
+      "weight_label": "Weight (kg)",
+      "height_label": "Height (cm)",
+      "yAxisValue": "Value",
+      "input": {
+        "weightLabel": "Weight (kg)",
+        "heightLabel": "Height (cm)",
+        "currentWeight": "Current: {{value}}kg",
+        "enterWeight": "Enter weight",
+        "currentHeight": "Current: {{value}}cm",
+        "enterHeight": "Enter height"
+      },
+      "actions": {
+        "saving": "Saving...",
+        "saveUpdate": "Save Update"
+      },
+      "toast": {
+        "loadError": "Failed to load progress data.",
+        "saved": "Progress update saved successfully!",
+        "saveError": "Failed to save progress update. Please try again later.",
+        "unknownError": "Something went wrong. Please try again."
+      },
+      "loadingTitle": "Loading Progress Data...",
+      "emptyTitle": "No Progress Data Yet",
+      "emptyDesc": "Start tracking your progress by adding your first update"
+    }
+  },
+  "landing": {
+    "slides": {
+      "welcome_title": "Welcome to Dietin",
+      "welcome_desc": "Your AI fitness companion",
+      "meal_title": "Smart Meal Planning",
+      "meal_desc": "Smart meal plans tailored just for you",
+      "workout_title": "Workout Tracking",
+      "workout_desc": "Track progress, achieve goals",
+      "ai_title": "AI Analysis",
+      "ai_desc": "Smart insights for better results"
+    },
+    "alts": {
+      "welcome": "Welcome",
+      "meal_planning": "Smart Meal Planning",
+      "workout_tracking": "Workout Tracking",
+      "ai_analysis": "AI Analysis"
+    },
+    "cta": {
+      "get_started": "Get Started",
+      "continue": "Continue"
+    }
+  },
+  "welcome": {
+    "intro": {
+      "hi": "Hi.",
+      "welcome": "Welcome to Dietin",
+      "unlock": "Let's unlock your full potential."
+    },
+    "name": {
+      "title": "What's your name?",
+      "desc": "Let's start with the basics",
+      "placeholder": "Enter your name",
+      "error": "Please enter a real name (letters only, 2-40 chars)."
+    },
+    "birth": {
+      "title": "When were you born?",
+      "desc": "This will be used to calibrate your custom plan.",
+      "month": "Month",
+      "day": "Day",
+      "year": "Year",
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      },
+      "minAgeError": "You must be at least 12 years old to use this app."
+    },
+    "gender": {
+      "title": "Choose your gender",
+      "desc": "This will be used to calibrate your custom plan.",
+      "options": {
+        "male": "Male",
+        "female": "Female"
+      }
+    },
+    "hw": {
+      "title": "Height & weight",
+      "desc": "This will be used to calibrate your custom plan.",
+      "units": {
+        "imperial": "Imperial",
+        "metric": "Metric"
+      },
+      "height": {
+        "label": "Height",
+        "placeholderCm": "cm",
+        "placeholderFt": "ft",
+        "placeholderIn": "in"
+      },
+      "weight": {
+        "label": "Weight",
+        "placeholderKg": "kg",
+        "placeholderLbs": "lbs"
+      },
+      "validation": {
+        "heightMetric": "Height must be between 120cm and 220cm",
+        "heightImperial": "Height must be between 4'0\" and 7'11\"",
+        "weightMetric": "Weight must be between 30kg and 180kg",
+        "weightImperial": "Weight must be between 66lbs and 400lbs"
+      }
+    },
+    "fitness": {
+      "title": "What's your current fitness level?",
+      "desc": "This helps us tailor the program to your experience",
+      "options": {
+        "beginner": {
+          "label": "Beginner",
+          "desc": "New to fitness or getting back after a long break"
+        },
+        "intermediate": {
+          "label": "Intermediate",
+          "desc": "Regular exercise with some experience"
+        },
+        "advanced": {
+          "label": "Advanced",
+          "desc": "Experienced with consistent training"
+        }
+      }
+    },
+    "activity": {
+      "title": "What's your activity level?",
+      "desc": "This helps us calculate your daily energy needs",
+      "options": {
+        "lightlyActive": {
+          "label": "Lightly Active",
+          "desc": "Mostly sedentary with light exercise"
+        },
+        "moderatelyActive": {
+          "label": "Moderately Active",
+          "desc": "Regular exercise or active job"
+        },
+        "veryActive": {
+          "label": "Very Active",
+          "desc": "Daily exercise or physically demanding job"
+        },
+        "extraActive": {
+          "label": "Extra Active",
+          "desc": "Multiple training sessions or athlete"
+        }
+      }
+    },
+    "goal": {
+      "title": "What is your goal?",
+      "desc": "This helps us generate a plan for your calorie intake.",
+      "options": {
+        "loseWeight": {
+          "label": "Lose weight",
+          "desc": "Focus on reducing overall body weight"
+        },
+        "loseFat": {
+          "label": "Lose fat and maintain muscle",
+          "desc": "Focus on fat loss while preserving muscle mass"
+        },
+        "recomposition": {
+          "label": "Lose fat and gain muscle",
+          "desc": "Body recomposition - simultaneously reduce fat and build muscle"
+        },
+        "maintainHealth": {
+          "label": "Maintain and improve health",
+          "desc": "Focus on overall health and wellness while maintaining weight"
+        },
+        "maintainAthletic": {
+          "label": "Maintain athletic performance",
+          "desc": "Maintain weight while optimizing for athletic performance"
+        },
+        "gainMuscle": {
+          "label": "Gain muscle",
+          "desc": "Focus on building muscle mass with minimal fat gain"
+        },
+        "gainWeight": {
+          "label": "Gain weight",
+          "desc": "Focus on increasing overall body weight"
+        }
+      }
+    },
+    "targetWeight": {
+      "title": "What is your desired weight?",
+      "headings": {
+        "default": "Target Weight",
+        "preserveMuscle": "Target Weight While Preserving Muscle",
+        "muscleGain": "Target Weight With Muscle Gain",
+        "recomposition": "Target Weight With Body Recomposition"
+      },
+      "unitKg": "kg",
+      "unitLbs": "lbs",
+      "current": "Current",
+      "toTarget": "to reach target",
+      "toGain": "to gain",
+      "focusRecomp": "Focus on body composition change",
+      "maintain": "Maintain current weight",
+      "setRecommended": "Set to recommended target"
+    },
+    "weeklyGoal": {
+      "title": "How quickly do you want to reach your goal?",
+      "subtitle": "Weekly progress goal",
+      "labels": {
+        "steady": "Steady",
+        "balanced": "Balanced",
+        "ambitious": "Ambitious"
+      },
+      "recommended": {
+        "title": "Recommended for your goal",
+        "desc": "Based on sustainable progress"
+      }
+    },
+    "workoutDays": {
+      "title": "How many workouts do you do per week?",
+      "desc": "This will be used to calibrate your custom plan.",
+      "options": {
+        "0_2": {
+          "label": "0-2",
+          "desc": "Workouts now and then"
+        },
+        "3_5": {
+          "label": "3-5",
+          "desc": "A few workouts per week"
+        },
+        "6_plus": {
+          "label": "6+",
+          "desc": "Dedicated athlete"
+        }
+      }
+    },
+    "workoutDuration": {
+      "title": "How long do you prefer to workout?",
+      "desc": "Choose your ideal workout duration",
+      "options": {
+        "m30": {
+          "label": "30 minutes",
+          "desc": "Quick and effective workouts"
+        },
+        "m45": {
+          "label": "45 minutes",
+          "desc": "Balanced workout duration"
+        },
+        "m60": {
+          "label": "60 minutes",
+          "desc": "Full comprehensive sessions"
+        },
+        "m90": {
+          "label": "90+ minutes",
+          "desc": "Extended training sessions"
+        }
+      }
+    },
+    "obstacles": {
+      "title": "What obstacles have prevented your success?",
+      "desc": "Select all that apply",
+      "options": {
+        "TIME": {
+          "label": "Lack of time",
+          "desc": "Busy schedule makes it hard to stay consistent"
+        },
+        "MOTIVATION": {
+          "label": "Low motivation",
+          "desc": "Difficulty staying motivated"
+        },
+        "KNOWLEDGE": {
+          "label": "Limited knowledge",
+          "desc": "Unsure about proper form or nutrition"
+        },
+        "INJURIES": {
+          "label": "Past injuries",
+          "desc": "Physical limitations or concerns"
+        },
+        "STRESS": {
+          "label": "High stress",
+          "desc": "Work or life stress affects consistency"
+        },
+        "SLEEP": {
+          "label": "Poor sleep",
+          "desc": "Inadequate rest affects performance"
+        },
+        "NUTRITION": {
+          "label": "Diet challenges",
+          "desc": "Difficulty maintaining healthy eating"
+        }
+      }
+    },
+    "limitations": {
+      "title": "Do you have any physical limitations?",
+      "desc": "Select all that apply to receive modified exercises",
+      "options": {
+        "BACK": {
+          "label": "Back issues",
+          "desc": "Lower or upper back pain/injury"
+        },
+        "KNEE": {
+          "label": "Knee problems",
+          "desc": "Joint pain or previous injury"
+        },
+        "SHOULDER": {
+          "label": "Shoulder limitations",
+          "desc": "Restricted movement or pain"
+        },
+        "WRIST": {
+          "label": "Wrist/hand issues",
+          "desc": "Carpal tunnel or joint pain"
+        },
+        "HIP": {
+          "label": "Hip problems",
+          "desc": "Limited mobility or discomfort"
+        },
+        "NONE": {
+          "label": "No limitations",
+          "desc": "No physical restrictions"
+        }
+      }
+    },
+    "allergies": {
+      "title": "Do you have any food allergies?",
+      "desc": "Select all that apply to receive safe meal suggestions",
+      "options": {
+        "DAIRY": {
+          "label": "Dairy",
+          "desc": "Milk, cheese, yogurt"
+        },
+        "NUTS": {
+          "label": "Tree nuts",
+          "desc": "Almonds, walnuts, cashews"
+        },
+        "PEANUT": {
+          "label": "Peanuts",
+          "desc": "Peanuts and peanut products"
+        },
+        "GLUTEN": {
+          "label": "Gluten",
+          "desc": "Wheat, barley, rye"
+        },
+        "SOY": {
+          "label": "Soy",
+          "desc": "Soybeans and soy products"
+        },
+        "SHELLFISH": {
+          "label": "Shellfish",
+          "desc": "Shrimp, crab, lobster"
+        },
+        "EGGS": {
+          "label": "Eggs",
+          "desc": "Eggs and egg products"
+        },
+        "NONE": {
+          "label": "No allergies",
+          "desc": "No food restrictions"
+        }
+      }
+    },
+    "cuisines": {
+      "title": "What regional cuisines do you prefer?",
+      "desc": "We'll bias meal ideas toward this preference",
+      "options": {
+        "mediterranean": "Mediterranean",
+        "indian": "Indian",
+        "mexican": "Mexican",
+        "eastAsian": "East Asian",
+        "middleEastern": "Middle Eastern",
+        "american": "American",
+        "african": "African",
+        "latinAmerican": "Latin American",
+        "southeastAsian": "Southeast Asian",
+        "european": "European"
+      },
+      "none": {
+        "title": "No strong preference",
+        "subtitle": "Show a broad variety"
+      },
+      "custom": {
+        "placeholder": "Or type a region/cuisine (e.g., Japanese, Italian)",
+        "aria": "Custom regional cuisine preference"
+      }
+    },
+    "pro": {
+      "title": "Upgrade to DietinPro",
+      "desc": "Experience fitness at its finest",
+      "features": {
+        "aiCoach": {
+          "label": "AI Nutrition Coach",
+          "desc": "Get personalized meal plans and real-time guidance",
+          "highlight": "Most Popular"
+        },
+        "premiumRecipes": {
+          "label": "Premium Recipes",
+          "desc": "Access exclusive healthy and delicious recipes",
+          "highlight": "New"
+        },
+        "advancedAnalytics": {
+          "label": "Advanced Analytics",
+          "desc": "Detailed insights and progress tracking",
+          "highlight": "Pro"
+        },
+        "mealPlanner": {
+          "label": "Smart Meal Planner",
+          "desc": "AI-powered meal planning and optimization",
+          "highlight": "Premium"
+        }
+      },
+      "card": {
+        "title": "DietinPro",
+        "subtitle": "Unlock your full potential",
+        "perMonth": "/month",
+        "benefits": {
+          "aiAnalysis": "✨ Unlimited AI meal analysis",
+          "workoutPlans": "🎯 Personalized workout plans",
+          "premiumAccess": "🔒 Premium features access",
+          "nutritionGuidance": "💪 Expert nutrition guidance"
+        },
+        "cta": "Get Started with Pro",
+        "noRefund": "No refund"
+      }
+    },
+    "aiAnalysis": {
+      "title": "AI Analysis",
+      "desc": "Our AI is analyzing your profile",
+      "loading": "Analyzing your profile..."
+    },
+    "ready": {
+      "title": "Ready to Begin",
+      "desc": "Let's start your fitness journey",
+      "metrics": {
+        "metabolism": "Your Metabolism",
+        "calories": "Daily Calories"
+      },
+      "macros": {
+        "protein": "Protein",
+        "carbs": "Carbs",
+        "fat": "Fat"
+      },
+      "chart": {
+        "title": "Estimated Progress Timeline",
+        "weekLabel": "Week {{num}}",
+        "withDietin": "With Dietin",
+        "withoutGuidance": "Without Guidance",
+        "weightKg": "Weight (kg)",
+        "weightLbs": "Weight (lbs)",
+        "note": "Projected timeline based on your goals and commitment"
+      },
+      "summary": {
+        "title": "Your Personalized Goals",
+        "targetWeight": "Target Weight",
+        "weeklyGoal": "Weekly Goal",
+        "perWeek": "per week",
+        "estimatedTimeline": "Estimated Timeline",
+        "basedOnWeekly": "Based on weekly goal: {{weeks}} weeks",
+        "aiRecommendation": "AI recommendation: {{weeks}} weeks"
+      },
+      "loading": "Setting up your profile...",
+      "cta": "Let's get started!"
+    }
+  },
+  "proPanel": {
+    "title": "DietinPro",
+    "header": {
+      "loggedIn": "Premium features, simplified.",
+      "loggedOut": "Sign in to unlock premium features."
+    },
+    "plans": {
+      "pro": {
+        "name": "Pro",
+        "features": [
+          "UNLIMITED AI analysis",
+          "Image food analysis - snap to analyze",
+          "AI generated meals and recipes",
+          "Full data analysis of your progress",
+          "AI generated workouts to fit your goals",
+          "Custom meal plans with AI"
+        ]
+      }
+    },
+    "cta": {
+      "signInOrCreate": "Sign In / Create Account",
+      "joinNowLine": "Join now to unlock all features and start your personalized nutrition journey"
+    },
+    "paypal": {
+      "errorTitle": "PayPal Error",
+      "paymentFailedDesc": "Failed to process payment. Please try again.",
+      "initFailedDesc": "Failed to initialize PayPal. Please refresh the page."
+    },
+    "subscription": {
+      "successTitle": "Welcome to Dietin Pro! 🎉",
+      "successDesc": "Your subscription has been activated.",
+      "failedTitle": "Subscription Failed",
+      "failedDesc": "Failed to activate subscription. Please contact support."
+    },
+    "checkout": {
+      "secureViaPayPal": "Secure checkout via PayPal",
+      "agreePrefix": "By subscribing, you agree to our",
+      "and": "and",
+      "oneTimeNoRenewal": "One-time payment for 30 days access. No auto-renewal.",
+      "instantAccess": "Instant access after payment",
+      "cancelWithin": "Cancel anytime within 30 days"
+    },
+    "redeem": {
+      "haveCode": "Have a redeem code?",
+      "title": "Redeem Code",
+      "placeholder": "Enter your code",
+      "action": "Redeem",
+      "comingSoonTitle": "Coming Soon",
+      "comingSoonDesc": "Redeem code functionality will be available soon.",
+      "notAvailableTitle": "Not Available",
+      "notAvailableDesc": "This feature is not available yet."
+    }
+  },
+  "cta": {
+    "continue": "Continue",
+    "completeStep": "Please complete this step",
+    "confirmSignOut": "Are you sure you want to sign out?"
+  },
+  "pro": {
+    "locked": {
+      "desc": "Please subscribe to Pro to unlock this feature."
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"version":"19.2.0-pre","revision":"8941cffe122","kas":{"enabled":true,"externalUrl":"wss://kas.gitlab.com","externalK8sProxyUrl":"https://kas.gitlab.com/k8s-proxy","version":"19.2.0-rc1+9112c48305eb18614e7d2a1ae8348c19c57119a3"},"enterprise":true}

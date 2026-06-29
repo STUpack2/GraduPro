@@ -1,0 +1,459 @@
+{
+  "common": {
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "loading": "جاري التحميل",
+    "search": "بحث",
+    "menu": "القائمة",
+    "welcome": "أهلاً",
+    "welcome_user": "أهلاً {{name}}"
+  },
+  "units": {
+    "min": "د"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور"
+  },
+  "diet": {
+    "meals": "الوجبات",
+    "calories": "السعرات الحرارية",
+    "protein": "البروتين",
+    "carbs": "الكربوهيدرات",
+    "fat": "الدهون",
+    "calories_remaining": "السعرات المتبقية",
+    "calories_consumed": "السعرات المستهلكة",
+    "kcal_left": "سعرة متبقية",
+    "consumed": "مستهلك",
+    "goal": "الهدف",
+    "burned": "محروق",
+    "remaining": "متبقي",
+    "meal_suggestions": "اقتراحات الوجبات",
+    "view_all": "عرض الكل",
+    "search_food": "البحث عن طعام",
+    "add_meal": "إضافة وجبة",
+    "nutrition_facts": "الحقائق الغذائية",
+    "serving_size": "حجم الحصة",
+    "add_to_diary": "إضافة إلى اليوميات",
+    "recent_meals": "الوجبات الأخيرة",
+    "no_results": "لا توجد نتائج",
+    "loading_suggestions": "جاري تحميل الاقتراحات",
+    "try_pro": "جرب النسخة المدفوعة",
+    "unlock_features": "افتح جميع الميزات",
+    "your_progress": "تقدمك",
+    "weekly_summary": "ملخص الأسبوع",
+    "monthly_summary": "ملخص الشهر",
+    "achievements": "الإنجازات",
+    "streak": "التتابع",
+    "days": "أيام",
+    "weeks": "أسابيع",
+    "months": "شهور"
+  },
+  "plan": {
+    "workout_plan": "خطة التمرين",
+    "progress": "التقدم",
+    "library": "المكتبة",
+    "plan": "الخطة",
+    "favorites": "المفضلة",
+    "push_pull_split": "تقسيم الدفع والسحب",
+    "bro_split": "تقسيم برو",
+    "upper_lower_split": "تقسيم الأعلى والأسفل",
+    "custom_plan": "خطة مخصصة",
+    "push_day": "يوم الدفع",
+    "pull_day": "يوم السحب",
+    "rest_cardio": "راحة وتمارين قلبية",
+    "rest_core": "راحة وتمارين البطن",
+    "full_body": "الجسم كامل",
+    "active_recovery": "استشفاء نشط",
+    "rest_day": "يوم راحة",
+    "chest_day": "يوم الصدر",
+    "back_day": "يوم الظهر",
+    "shoulder_day": "يوم الأكتاف",
+    "arm_day": "يوم الذراعين",
+    "leg_day": "يوم الساقين",
+    "core_cardio": "تمارين البطن والقلب",
+    "upper_body": "الجزء العلوي",
+    "lower_body": "الجزء السفلي",
+    "create_your_own": "إنشاء تقسيم التمرين الخاص بك",
+    "create_plan": "إنشاء خطة",
+    "your_custom_plans": "خططك المخصصة",
+    "days": "أيام",
+    "start_workout": "بدء التمرين",
+    "end_workout": "إنهاء التمرين",
+    "back_to_splits": "الرجوع إلى التقسيمات",
+    "back_to_days": "الرجوع إلى الأيام",
+    "back_to_plan": "الرجوع إلى الخطة",
+    "tap_to_view": "اضغط للعرض",
+    "view_progress": "عرض التقدم",
+    "sets_completed": "مجموعات مكتملة",
+    "workout": {
+      "workout_complete": "اكتمل التمرين!",
+      "see_you_next_time": "نراك في المرة القادمة!",
+      "see_you_message": "سنكون هنا عندما تكون مستعدًا لتمرينك القادم.",
+      "total_volume": "الحجم الإجمالي",
+      "completed_sets": "المجموعات المكتملة",
+      "avg_set_time": "متوسط وقت المجموعة",
+      "avg_rest_time": "متوسط وقت الراحة",
+      "rpm": "دورة في الدقيقة",
+      "total_time": "الوقت الإجمالي",
+      "no_workouts": "لم يتم تسجيل تمارين",
+      "click_back_to_plan": "انقر على \"الرجوع إلى الخطة\" لبدء تمرينك"
+    },
+    "rest_timer": {
+      "rest_time": "وقت الراحة",
+      "take_break": "خذ استراحة قبل المجموعة التالية",
+      "skip_rest": "تخطي الراحة"
+    },
+    "exercise": {
+      "set": "مجموعة",
+      "reps": "تكرارات",
+      "weight": "وزن",
+      "rest": "راحة",
+      "sets_completed": "مجموعات مكتملة",
+      "complete_workout": "إكمال التمرين",
+      "next_set": "المجموعة التالية",
+      "decrease_time": "-٥ث",
+      "increase_time": "+٥ث"
+    },
+    "custom_modal": {
+      "create_custom_plan": "إنشاء خطة مخصصة",
+      "add_training_days": "إضافة أيام التدريب",
+      "select_exercises": "اختيار التمارين",
+      "plan_name": "اسم الخطة",
+      "continue": "متابعة",
+      "day_name": "اسم اليوم",
+      "focus_placeholder": "التركيز (مثال: الجزء العلوي)",
+      "add_day": "إضافة يوم",
+      "back": "رجوع",
+      "search_exercises": "البحث عن التمارين...",
+      "set_as_rest_day": "تعيين كيوم راحة",
+      "no_exercises_found": "لم يتم العثور على تمارين",
+      "finish": "إنهاء",
+      "next_day": "اليوم التالي"
+    }
+  },
+  "muscles": {
+    "back": "الظهر",
+    "chest": "الصدر",
+    "shoulders": "الأكتاف",
+    "biceps": "العضلة ذات الرأسين",
+    "triceps": "العضلة ذات الثلاث رؤوس",
+    "arms": "الذراعين",
+    "legs": "الساقين",
+    "upper_body": "الجزء العلوي",
+    "lower_body": "الجزء السفلي",
+    "core": "عضلات البطن",
+    "sub_muscles": {
+      "lats": "العضلة العريضة",
+      "middle_back": "وسط الظهر",
+      "lower_back": "أسفل الظهر",
+      "traps": "شبه المنحرف",
+      "quadriceps": "العضلة الرباعية",
+      "hamstrings": "أوتار الركبة",
+      "calves": "عضلات الساق",
+      "glutes": "الألوية",
+      "adductors": "المقربة",
+      "abductors": "المبعدة",
+      "forearms": "الساعد",
+      "abdominals": "عضلات البطن"
+    }
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "workouts": "التمارين",
+    "tracker": "المتتبع",
+    "profile": "الملف الشخصي",
+    "diet": "النظام الغذائي",
+    "burn": "حرق",
+    "hydration": "الترطيب"
+  },
+  "burn": {
+    "ui": {
+      "title": "متابع القلب",
+      "workoutSuggestions": "اقتراحات التمرين",
+      "refreshTitle": "حدّث للحصول على اقتراحات التمرين",
+      "refreshSubtitle": "احصل على ترشيحات تمرين مخصصة",
+      "subscribeCta": "اشترك في DietinPro للحصول على اقتراحات تمرين بالذكاء الاصطناعي"
+    },
+    "stats": {
+      "caloriesBurned": "سعرات حرارية محروقة",
+      "totalDuration": "المدة الإجمالية",
+      "workoutsDone": "التمارين المنجزة"
+    },
+    "sections": {
+      "instructions": "التعليمات",
+      "proTips": "نصائح"
+    },
+    "labels": {
+      "intensity": "الشدة",
+      "targetArea": "المنطقة المستهدفة",
+      "equipment": "المعدات",
+      "minSets": "أقل عدد مجموعات"
+    },
+    "popup": {
+      "tapToStart": "اضغط للبدء",
+      "tapToPause": "اضغط للإيقاف المؤقت",
+      "caloriesWillBeBurned": "السعرات التي ستحترق",
+      "actual": "فعلي",
+      "estimated": "تقديري"
+    },
+    "timer": {
+      "set": "مجموعة {{current}}/{{total}}",
+      "work": "تمرين",
+      "break": "استراحة"
+    },
+    "examples": {
+      "example1": {
+        "name": "جري متقطع بإيقاع",
+        "targetArea": "الجسم كامل",
+        "equipment": "بدون",
+        "instructions": "بدّل بين ٢ دقيقة جري خفيف و١ دقيقة مشي سريع. حافظ على استقامة الظهر وتنفس منتظم.",
+        "tips": {
+          "0": "ارخِ الكتفين وشدّ عضلات البطن",
+          "1": "اهبط برفق لتقليل الضغط",
+          "2": "اشرب رشفة ماء بين الفترات"
+        }
+      },
+      "example2": {
+        "name": "دفعة نط الحبل",
+        "targetArea": "الجسم كامل",
+        "equipment": "حبل نط",
+        "instructions": "٤٠ ثانية نط حبل، ٢٠ ثانية راحة. كرّر. ابقِ المرفقين قريبين والرسغين يحرّكان الحبل.",
+        "tips": {
+          "0": "استخدم قفزات صغيرة وسريعة",
+          "1": "تنفّس بإيقاع منتظم",
+          "2": "ثبّت النظر للأمام"
+        }
+      }
+    }
+  },
+  "difficulty": {
+    "low": "منخفضة",
+    "medium": "متوسطة",
+    "high": "مرتفعة"
+  },
+  "days": {
+    "monday": "الاثنين",
+    "tuesday": "الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد",
+    "mon": "الاثنين",
+    "tue": "الثلاثاء",
+    "wed": "الأربعاء",
+    "thu": "الخميس",
+    "fri": "الجمعة",
+    "sat": "السبت",
+    "sun": "الأحد"
+  },
+  "search": {
+    "search_placeholder": "ابحث عن وجبات أو أطعمة...",
+    "no_results": "لا توجد نتائج",
+    "searching": "جاري البحث عن أفضل النتائج...",
+    "try_adjusting": "حاول تعديل البحث أو الفلترة",
+    "popular_categories": "الفئات الشائعة",
+    "quick_suggestions": "اقتراحات سريعة",
+    "add_to_meal_log": "إضافة إلى سجل الوجبات",
+    "portion_size": "حجم الحصة",
+    "grams": "جرام",
+    "add_meal": "إضافة وجبة",
+    "food_added": "تمت إضافة الطعام إلى سجل الوجبات"
+  },
+  "categories": {
+    "breakfast": "الفطور",
+    "lunch": "الغداء",
+    "dinner": "العشاء",
+    "snacks": "وجبات خفيفة",
+    "low_calorie": "سعرات قليلة",
+    "high_protein": "بروتين عالي",
+    "vegetarian": "نباتي"
+  },
+  "nutrients": {
+    "sugar": "السكر",
+    "fiber": "الألياف",
+    "cholesterol": "الكولسترول",
+    "sodium": "الصوديوم",
+    "potassium": "البوتاسيوم",
+    "magnesium": "المغنيسيوم",
+    "vitamin_a": "فيتامين أ",
+    "vitamin_c": "فيتامين ج",
+    "iron": "الحديد"
+  },
+  "analytics": {
+    "total_weekly_calories": "إجمالي السعرات الحرارية الأسبوعية",
+    "avg_per_day": "المتوسط/يوم",
+    "days": "أيام",
+    "meals_analyzed": "الوجبات المحللة",
+    "best_day": "أفضل يوم",
+    "no_data_yet": "لا توجد بيانات حتى الآن",
+    "no_meals_logged": "لم يتم تسجيل أي وجبات",
+    "match": "تطابق",
+    "protein": "بروتين",
+    "carbs": "كربوهيدرات",
+    "fat": "دهون",
+    "ai_training_insights": "تحليلات التدريب الذكية",
+    "personalized_analysis": "تحليل مخصص لأداء تمارينك",
+    "recent_workouts": "التمارين الأخيرة",
+    "workout_history_7_days": "سجل تمارينك خلال الـ 7 أيام الماضية",
+    "completion": "الإكمال",
+    "volume": "الحجم",
+    "volume_progress": "تقدم الحجم",
+    "volume_progress_text": "تتبع تقدم حجم تمارينك مع DietinPro للحصول على رؤى مخصصة",
+    "rest_optimization": "تحسين فترات الراحة",
+    "rest_optimization_text": "تحليل فترات الراحة وتحسينها للحصول على تعافي أفضل للعضلات",
+    "training_focus": "تركيز التدريب",
+    "training_focus_text": "تحليل مفصل لتوازن مجموعات العضلات وتوزيع التدريب"
+  },
+  "search_popup": {
+    "add_to_meal_log": "إضافة إلى سجل الوجبات",
+    "portion_size": "حجم الحصة",
+    "grams": "جرام",
+    "calories": "سعرات حرارية",
+    "protein": "بروتين",
+    "carbs": "كربوهيدرات",
+    "fat": "دهون",
+    "quick_suggestions": "اقتراحات سريعة",
+    "popular_categories": "الفئات الشائعة",
+    "searching": "جاري البحث...",
+    "no_results": "لا توجد نتائج",
+    "try_adjusting": "حاول تعديل البحث أو الفلترة",
+    "search_placeholder": "ابحث عن وجبات أو أطعمة..."
+  },
+  "home": {
+    "sign_in_cta": "سجل دخولك أو أنشئ حساباً للتجربة الكاملة",
+    "unlock_pro": "افتح الميزات المتقدمة",
+    "quick_suggestions": {
+      "chicken_breast": "صدر دجاج",
+      "greek_yogurt": "زبادي يوناني",
+      "oatmeal": "شوفان",
+      "salmon": "سلمون",
+      "quinoa_bowl": "طبق كينوا",
+      "protein_shake": "مخفوق البروتين"
+    }
+  },
+  "ai_assistant": {
+    "welcome": "مرحباً بك في CHIEF AI",
+    "description": "مساعدك الشخصي للتغذية واللياقة البدنية",
+    "input_placeholder": "اسأل عن التغذية أو الوصفات أو اللياقة البدنية...",
+    "features": {
+      "smart_nutrition": {
+        "title": "نصائح تغذية ذكية",
+        "description": "احصل على نصائح تغذية شخصية بدون عد السعرات الحرارية"
+      },
+      "recipe_recommendations": {
+        "title": "توصيات الوصفات",
+        "description": "اكتشف وصفات صحية جديدة"
+      },
+      "fitness_guidance": {
+        "title": "إرشادات اللياقة",
+        "description": "نصائح تمارين تكمل نظامك الغذائي"
+      },
+      "meal_planning": {
+        "title": "تخطيط الوجبات الذكي",
+        "description": "احصل على خطط وجبات أسبوعية مخصصة ونصائح للتحضير"
+      }
+    },
+    "quick_suggestions": {
+      "title": "اقتراحات سريعة",
+      "healthy_breakfast": "أفكار لفطور صحي",
+      "quick_workout": "روتين تمارين سريع",
+      "meal_prep": "نصائح لتحضير الوجبات",
+      "healthy_snacks": "خيارات وجبات خفيفة صحية",
+      "pre_workout": "أفضل وجبات ما قبل التمرين",
+      "salad_recipes": "وصفات سلطات سهلة",
+      "homemade_pizza": "وصفة بيتزا منزلية",
+      "heart_healthy": "أطعمة صحية للقلب"
+    }
+  },
+  "workouts": {
+    "exercise_library": "مكتبة التمارين",
+    "library": "المكتبة",
+    "search_all_exercises": "ابحث عن التمارين أو مجموعات العضلات...",
+    "search_in_muscle_group": "ابحث في {{muscle}}...",
+    "back_to_categories": "العودة إلى الفئات",
+    "all_types": "جميع الأنواع ({{count}})",
+    "view_exercises": "عرض التمارين",
+    "loading_exercises": "جاري تحميل التمارين",
+    "equipment": "المعدات",
+    "level": "المستوى",
+    "instructions": "التعليمات"
+  },
+  "progress": {
+    "ai_training_insights": "تحليلات التدريب بالذكاء الاصطناعي",
+    "ai_training_insights_desc": "تحليل مخصص لتقدمك في التدريب",
+    "no_workouts_found": "لا توجد تمارين",
+    "no_workouts_desc": "لم تُكمل أي تمارين بعد. اضغط بالأسفل لبدء رحلتك الرياضية.",
+    "completion": "الإنجاز",
+    "sets": "مجموعات",
+    "volume": "الحجم",
+    "example": {
+      "volume_progress": "تقدم الحجم التدريبي",
+      "volume_progress_text": "زاد حجم تدريبك بنسبة 15% خلال الشهر الماضي. استمر!",
+      "rest_optimization": "تحسين الراحة",
+      "rest_optimization_text": "فكّر بزيادة فترات الراحة بين المجموعات الثقيلة إلى 2-3 دقائق لاستشفاء أفضل.",
+      "training_focus": "تركيز التمرين",
+      "training_focus_text": "توازن تمرين الجزء العلوي جيد. فكّر بإضافة المزيد من تمارين الجزء السفلي."
+    }
+  },
+  "plusButton": {
+    "workoutPlan": "خطة التمرين",
+    "mealLogging": "تسجيل الوجبة"
+  },
+  "mealAnalysis": {
+    "saveSuccess": "تم حفظ الوجبة بنجاح!",
+    "additionalNutrients": "عناصر غذائية إضافية",
+    "tags": {
+      "breakfast": "فطور",
+      "lunch": "غداء",
+      "dinner": "عشاء",
+      "snack": "وجبة خفيفة",
+      "meal1": "الوجبة 1",
+      "meal2": "الوجبة 2",
+      "meal3": "الوجبة 3"
+    },
+    "labels": {
+      "fiber": "ألياف",
+      "sugar": "سكر",
+      "sodium": "صوديوم",
+      "cholesterol": "كوليسترول",
+      "vitA": "فيتامين أ",
+      "vitC": "فيتامين ج",
+      "calcium": "كالسيوم",
+      "iron": "حديد"
+    },
+    "actions": {
+      "snapPhoto": "التقاط صورة"
+    },
+    "viewMoreSuggestions": "عرض {{count}} اقتراحات إضافية",
+    "viewLess": "عرض أقل",
+    "pro": {
+      "unlockDetailedNutrition": {
+        "title": "افتح التغذية التفصيلية",
+        "description": "اشترك في DietinPro للوصول إلى معلومات غذائية تفصيلية بما في ذلك الفيتامينات والمعادن والمزيد.",
+        "cta": "ترقية إلى برو"
+      },
+      "unlockAISuggestions": {
+        "title": "افتح اقتراحات الذكاء الاصطناعي",
+        "description": "اشترك في DietinPro للوصول إلى اقتراحات ذكية مخصصة لتحسين وجباتك وتحقيق أهدافك.",
+        "cta": "ترقية إلى برو"
+      }
+    },
+    "errors": {
+      "photoAnalyzeFailed": "فشل تحليل الصورة. يرجى التأكد أن الصورة تُظهر الطعام بوضوح ثم أعد المحاولة.",
+      "fileReadFailed": "فشل قراءة ملف الصورة. يرجى المحاولة بصورة أخرى.",
+      "quotaReached": "تم بلوغ حد التحليل اليومي. يرجى الترقية إلى برو لتحليل غير محدود.",
+      "photoAnalyzeTryAgain": "فشل تحليل الصورة. يرجى المحاولة بصورة أوضح للطعام.",
+      "quotaToast": "تم الوصول للحد اليومي لتحليل الوجبات (3/3). اشترك في DietinPro لتحليل غير محدود أو انتظر 24 ساعة.",
+      "nutritionAnalyzeFailed": "فشل تحليل القيم الغذائية. يرجى المحاولة مرة أخرى أو إدخال القيم يدويًا."
+    }
+  }
+}

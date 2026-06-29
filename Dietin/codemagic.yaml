@@ -1,0 +1,85 @@
+workflows:
+  ios-simulator:
+    name: iOS Simulator Build
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: development
+        bundle_identifier: com.dietin.app
+      vars:
+        COCOAPODS_DISABLE_STATS: 1
+    scripts:
+      - name: Set up Node.js
+        script: |
+          brew install fnm
+          eval "$(fnm env --use-on-cd)"
+          fnm install 16
+          fnm use 16
+          node --version
+          npm --version
+      - name: Remove Firebase Authentication
+        script: |
+          npm uninstall @capacitor-firebase/authentication
+          rm -rf node_modules/@capacitor-firebase
+      - name: Install npm dependencies
+        script: |
+          npm install --legacy-peer-deps --force
+      - name: Build web app
+        script: |
+          npm run build
+      - name: Update Podfile configuration
+        script: |
+          cd ios/App
+          echo 'platform :ios, "14.0"' > Podfile.new
+          echo 'use_frameworks!' >> Podfile.new
+          echo 'target "App" do' >> Podfile.new
+          echo '  capacitor_pods' >> Podfile.new
+          echo 'end' >> Podfile.new
+          mv Podfile.new Podfile
+          cat Podfile
+      - name: Set up Capacitor
+        script: |
+          npx cap sync ios
+      - name: Install CocoaPods dependencies
+        script: |
+          cd ios/App
+          pod repo update
+          pod install --verbose
+      - name: iOS Simulator build
+        script: |
+          xcodebuild build \
+          -workspace ios/App/App.xcworkspace \
+          -scheme App \
+          -configuration Debug \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 14'
+    artifacts:
+      - ios/App/build/Debug-iphonesimulator/**/*.app
+      - /tmp/xcodebuild_logs/*.log
+
+  android-development:
+    name: Android Development Build
+    max_build_duration: 120
+    environment:
+      node: 16.x
+    scripts:
+      - name: Install npm dependencies
+        script: |
+          npm install --legacy-peer-deps
+      - name: Build web app
+        script: |
+          npm run build
+      - name: Set up Capacitor Android
+        script: |
+          npx cap sync android
+      - name: Set up local properties
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
+      - name: Build Android app
+        script: |
+          cd android
+          ./gradlew assembleDebug
+    artifacts:
+      - android/app/build/outputs/**/*.apk 
