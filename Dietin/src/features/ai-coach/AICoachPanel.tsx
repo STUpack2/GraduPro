@@ -160,7 +160,7 @@ export function AICoachPanel({ exercise, onRepDetected, compact }: AICoachPanelP
             {!state.sessionId ? (
               <Button
                 onClick={handleStart}
-                disabled={state.starting || status.state === "unreachable" || status.state === "loading"}
+                disabled={state.starting || status.state === "unreachable"}
                 className="flex-1"
               >
                 <Play className="h-4 w-4 mr-1.5" />

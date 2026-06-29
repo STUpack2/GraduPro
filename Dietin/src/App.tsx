@@ -23,6 +23,7 @@ import { doc, getDoc, updateDoc, setDoc } from "firebase/firestore";
 import { toast } from "@/components/ui/use-toast";
 import Plan from '@/pages/Plan';
 import Progress from './pages/Progress';
+import AICoachPage from '@/features/ai-coach/AICoachPage';
 import VerifyEmail from './pages/VerifyEmail';
 import ResetPassword from './pages/ResetPassword';
 import Deactivated from './pages/Deactivated';
@@ -101,11 +102,11 @@ function AppContent() {
         description: 'Connection restored. Your data will now sync automatically.',
         variant: 'default'
       });
-      
+
       // Attempt to reconnect to Firestore when back online
       tryReconnect().then((success) => {
         if (success && auth.currentUser) {
-            loadMealDataFromFirestore();
+          loadMealDataFromFirestore();
         }
       });
     };
@@ -129,7 +130,7 @@ function AppContent() {
   }, [loadMealDataFromFirestore]);
 
   // Protected routes check
-  const protectedPaths = ['/burn', '/hydration', '/workouts', '/progress'];
+  const protectedPaths = ['/burn', '/hydration', '/workouts', '/progress', '/ai-coach'];
   const authOnlyPaths = ['/auth'];
 
   // Update lastProtectedPath if on a protected route without auth
@@ -143,7 +144,7 @@ function AppContent() {
   useEffect(() => {
     const isLandingOrAuth = ['/auth', '/welcome', '/landing', '/verify-email', '/reset-password'].includes(location.pathname);
     setShowBottomNav(!isLandingOrAuth);
-    
+
     const timer = setTimeout(() => {
       setMounted(true);
     }, 100);
@@ -186,7 +187,7 @@ function AppContent() {
       if (!firebaseUser) {
         console.log('No Firebase user, clearing user data');
         setUser(null);
-        try { useProgressStore.getState().reset(); } catch {}
+        try { useProgressStore.getState().reset(); } catch { }
         return;
       }
       // Block unverified users ONLY for email/password provider
@@ -235,7 +236,7 @@ function AppContent() {
           loadMealDataFromFirestore();
           checkAndResetYearlyMeals();
           // Fire-and-forget hydrate of the Progress 2.0 cache.
-          try { void useProgressStore.getState().hydrate(firebaseUser.uid); } catch {}
+          try { void useProgressStore.getState().hydrate(firebaseUser.uid); } catch { }
 
           if (userData.isPro && userData.proExpiryDate) {
             const expiryDate = new Date(userData.proExpiryDate);
@@ -285,7 +286,7 @@ function AppContent() {
             setFirestoreError(null);
             loadMealDataFromFirestore();
             checkAndResetYearlyMeals();
-            try { void useProgressStore.getState().hydrate(firebaseUser.uid); } catch {}
+            try { void useProgressStore.getState().hydrate(firebaseUser.uid); } catch { }
           } catch (creationError) {
             console.error('Error creating new user document:', creationError);
             setFirestoreError('Failed to create user document');
@@ -302,7 +303,7 @@ function AppContent() {
         retryCount++;
         const delay = Math.pow(2, retryCount) * 1000;
         console.log(`Retrying connection (${retryCount}/${MAX_RETRIES}) in ${delay}ms...`);
-        
+
         setTimeout(() => {
           tryReconnect().then((success) => {
             if (success) {
@@ -325,7 +326,7 @@ function AppContent() {
     };
 
     const getFirebaseErrorMessage = (errorCode: string): string => {
-      switch(errorCode) {
+      switch (errorCode) {
         case 'unavailable':
           return 'Database service is currently unavailable. Please try again later.';
         case 'permission-denied':
@@ -368,7 +369,7 @@ function AppContent() {
     try {
       await syncPendingWrites();
       const reconnected = await tryReconnect();
-      
+
       if (reconnected) {
         setFirestoreError(null);
         toast({
@@ -376,7 +377,7 @@ function AppContent() {
           description: 'Your app is now connected to the database.',
           variant: 'default'
         });
-        
+
         loadMealDataFromFirestore();
       } else {
         toast({
@@ -395,10 +396,10 @@ function AppContent() {
   // Offline Indicator component
   const OfflineIndicator = () => {
     if (isOnline && !firestoreError) return null;
-    
+
     return (
       <div className="fixed bottom-20 left-0 right-0 flex justify-center z-50 pointer-events-none">
-        <motion.div 
+        <motion.div
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           className={`${!isOnline ? 'bg-destructive text-destructive-foreground' : 'bg-amber-600 text-white'} 
@@ -444,7 +445,7 @@ function AppContent() {
         <div className="min-h-screen w-full relative">
           {/* Blocker overlay removed: A2HS gate disabled */}
           {/* Background layers removed to let global BackgroundWithGlow be visible */}
-          
+
           {/* Scrollable Content */}
           <main className={cn(
             "relative z-10 min-h-screen w-full isolate",
@@ -459,12 +460,12 @@ function AppContent() {
                 )}
                 <Routes location={location} key={location.pathname}>
                   <Route path="/" element={
-                    localStorage.getItem('hasSeenLanding') ? 
-                      <Navigate to="/home" /> : 
+                    localStorage.getItem('hasSeenLanding') ?
+                      <Navigate to="/home" /> :
                       <Navigate to="/landing" />
                   } />
                   <Route path="/landing" element={
-                    localStorage.getItem('hasSeenLanding') ? 
+                    localStorage.getItem('hasSeenLanding') ?
                       <Navigate to="/home" /> :
                       <AnimatedPage>
                         <Landing />
@@ -496,9 +497,9 @@ function AppContent() {
                       } />
                       <Route path="/auth" element={
                         user ? <Navigate to="/home" /> :
-                        <AnimatedPage>
-                          <Auth />
-                        </AnimatedPage>
+                          <AnimatedPage>
+                            <Auth />
+                          </AnimatedPage>
                       } />
                       <Route path="/welcome" element={
                         <AnimatedPage>
@@ -523,6 +524,11 @@ function AppContent() {
                       <Route path="/progress" element={
                         <AnimatedPage>
                           <Progress />
+                        </AnimatedPage>
+                      } />
+                      <Route path="/ai-coach" element={
+                        <AnimatedPage>
+                          <AICoachPage />
                         </AnimatedPage>
                       } />
                       <Route path="/reset-password" element={
@@ -561,8 +567,8 @@ function AppContent() {
           {showBottomNav && mounted && !location.pathname.includes('landing') && (
             <>
               <NavHide isAIOpen={isAIOpen} />
-              <BottomNav 
-                className="fixed bottom-0 left-0 right-0 pb-safe-area-inset-bottom" 
+              <BottomNav
+                className="fixed bottom-0 left-0 right-0 pb-safe-area-inset-bottom"
                 activePath={lastProtectedPath || location.pathname}
               />
               <MoodTracker />
